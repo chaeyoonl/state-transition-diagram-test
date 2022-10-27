@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:25:35.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ug5xjA9iY_R6zUaf_bIA" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T08:40:12.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XMluvTt2TOaajzRHn5df" version="20.5.1" type="github" pages="2">
   <diagram name="AccState" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
-    <mxGraphModel dx="1593" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="740" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" visible="0" />
@@ -491,12 +491,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yR5S8KC12xKzKO2HaoVh" name="AccMain">
-    <mxGraphModel dx="1793" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="833" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CXHoYdH5WNGQYB9IzicC-2" value="WAKEUP" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#FFFFFF;dropTarget=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="680" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="m2gFd6V3wMDT-LV_waBj-1" value="STOP" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#FFFFFF;dropTarget=0;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="220" y="290" width="660" height="420" as="geometry" />
+          <mxGeometry x="220" y="290" width="660" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Mi9VU9SpGDeHijimp7BT-1" value="START" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#FFFFFF;dropTarget=0;fillStyle=auto;" vertex="1" parent="1">
           <mxGeometry x="220" y="90" width="1340" height="155" as="geometry" />
@@ -614,17 +617,20 @@
         <mxCell id="m2gFd6V3wMDT-LV_waBj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#F70000;" edge="1" parent="1" source="m2gFd6V3wMDT-LV_waBj-2" target="LqzDHXKle_3vR37wo6L8-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="940" y="654" />
+              <mxPoint x="940" y="753" />
               <mxPoint x="940" y="270" />
               <mxPoint x="609" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m2gFd6V3wMDT-LV_waBj-2" value="ACCMODE_ACCOFF" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="382.5" y="634" width="145" height="40" as="geometry" />
+          <mxGeometry x="382.5" y="737" width="145" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m2gFd6V3wMDT-LV_waBj-6" value="ACC on &amp;amp;&amp;amp; BAT on" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="544" y="629" width="130" height="30" as="geometry" />
+          <mxGeometry x="710" y="722" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m2gFd6V3wMDT-LV_waBj-8" value="ACC on &amp;amp;&amp;amp; BAT on" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="449" y="680" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
