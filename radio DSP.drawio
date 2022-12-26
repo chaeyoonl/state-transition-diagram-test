@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T10:15:41.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="2IWT1ZSXz8SQbuVSJTj7" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T02:35:04.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="367EFwSQ1PAazP8yDZCi" version="20.6.2" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
-    <mxGraphModel dx="1483" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="1448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,8 +319,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SUXEZbgYKyHz7WRzrGh1-61" value="&lt;span style=&quot;font-family: Arial; background-color: rgb(255, 255, 255);&quot;&gt;● radio 구조체의 Freq값 지정 및 Band Frequency값 저장&lt;br&gt;● radio (FM/AM) band frequency를 적용하고나서 radio (FM/AM) band CurrentMem값을 적용&lt;br&gt;● radio mute&lt;br&gt;● radio 구조체의 band, status, Frequency관련 값, preset 등의 값들을 UART를 통해 전송 (MCU -&amp;gt; AP)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=15;spacingLeft=0;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="443" width="462" height="100" as="geometry" />
+        <mxCell id="SUXEZbgYKyHz7WRzrGh1-61" value="&lt;span style=&quot;font-family: Arial; background-color: rgb(255, 255, 255);&quot;&gt;Frequency값 저장, radio mute, radio 구조체의 값들을 UART를 통해 전송 (MCU -&amp;gt; AP)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=15;spacingLeft=0;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="458.5" width="360" height="67" as="geometry" />
         </mxCell>
         <mxCell id="SUXEZbgYKyHz7WRzrGh1-62" value="RadioWork()" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#FFFFFF;dropTarget=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="2000" y="160" width="940" height="1490" as="geometry" />
@@ -375,12 +375,12 @@
         <mxCell id="SUXEZbgYKyHz7WRzrGh1-70" value="&lt;span style=&quot;font-family: Arial; background-color: rgb(255, 255, 255);&quot;&gt;● Frequency등에 따라 AM 혹은 FM의 tune을 맞춤&lt;br&gt;● radio 구조체의 frequency 등의 data값을 SI479XX에 write (SPI 통신방식 이용), SPI 통신 RX 값을 가공하여 radio 구조체의 SNR, DEV 등의 값들에 저장&lt;br&gt;● radio 구조체의 band, status, frequency 등의 값들을 백업&lt;br&gt;(uart 통신을 통하여 MCU -&amp;gt; AP로 정보를 보냄)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=15;spacingLeft=0;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
           <mxGeometry x="2358" y="375" width="462" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="SUXEZbgYKyHz7WRzrGh1-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=-0.003;entryY=0.57;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SUXEZbgYKyHz7WRzrGh1-72">
+        <mxCell id="SUXEZbgYKyHz7WRzrGh1-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="SUXEZbgYKyHz7WRzrGh1-72" source="SUXEZbgYKyHz7WRzrGh1-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1750" y="530" as="targetPoint" />
+            <mxPoint x="1780" y="490" as="targetPoint" />
             <mxPoint x="1742" y="495.90999999999985" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1750" y="496" />
+              <mxPoint x="1750" y="492" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -400,19 +400,18 @@
         <mxCell id="SUXEZbgYKyHz7WRzrGh1-76" value="WorkMode = 0x00" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="464.5" width="120" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="SUXEZbgYKyHz7WRzrGh1-77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.695;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SUXEZbgYKyHz7WRzrGh1-78">
+        <mxCell id="SUXEZbgYKyHz7WRzrGh1-77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" target="SUXEZbgYKyHz7WRzrGh1-78">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2330" y="570" as="targetPoint" />
             <mxPoint x="2200" y="488.40999999999985" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="2270" y="488" />
-              <mxPoint x="2270" y="576" />
-              <mxPoint x="2358" y="576" />
+              <mxPoint x="2270" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SUXEZbgYKyHz7WRzrGh1-78" value="&lt;span style=&quot;font-family: Arial; background-color: rgb(255, 255, 255);&quot;&gt;● radio 구조체의 frequency 등의 data값을 SI479XX에 write (SPI 통신방식 이용)&lt;br&gt;● 0dB로 맞춤 (radio mute off)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=15;spacingLeft=0;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
-          <mxGeometry x="2358" y="506.79" width="462" height="100" as="geometry" />
+        <mxCell id="SUXEZbgYKyHz7WRzrGh1-78" value="&lt;span style=&quot;font-family: Arial; background-color: rgb(255, 255, 255);&quot;&gt;radio 구조체의 값을 SI479XX에 write (SPI 통신방식 이용),&amp;nbsp;0dB로 맞춤 (radio mute off)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=15;spacingLeft=0;spacingBottom=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="2358" y="506.79" width="312" height="63.21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
