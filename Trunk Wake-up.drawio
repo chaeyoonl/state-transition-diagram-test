@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T01:45:08.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nOi6ptrSPMaQexKYVaRs" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T01:46:01.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8TH7JtHRG4v55GFt010H" version="22.1.21" type="github">
   <diagram name="페이지-1" id="obiBgoJhXo5aXb0GnERu">
     <mxGraphModel dx="1195" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-68" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="150" y="190" width="226" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZBejDf4waIo4YSwSh6Ry-69" value="Trunk 8v 이상을 &lt;br&gt;19ms 인가 했을 때 &lt;br&gt;Restart Wake-up 미인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZBejDf4waIo4YSwSh6Ry-69" value="Trunk 2.2v 이하를&lt;br&gt;19ms 인가 했을 때 &lt;br&gt;Restart Wake-up 미인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="380" width="242" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.414;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZBejDf4waIo4YSwSh6Ry-100" target="ZBejDf4waIo4YSwSh6Ry-69">
@@ -106,7 +106,7 @@
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-90" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="312" y="1534" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZBejDf4waIo4YSwSh6Ry-91" value="Trunk&amp;nbsp;8v 이상을 &lt;br&gt;90ms 인가 했을 때 &lt;br&gt;Restart Wake-up 인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZBejDf4waIo4YSwSh6Ry-91" value="Trunk 2.2v 이하를&lt;br&gt;90ms 인가 했을 때 &lt;br&gt;Restart Wake-up 인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="610" width="242" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-92" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
