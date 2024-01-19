@@ -1,189 +1,167 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T01:33:06.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5hDPStCg4KU0tLEgrd8u" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T07:03:02.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="omQnTiNpMe3FqVfZnlcf" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
-    <mxGraphModel dx="1687" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aunHTb1YWMdkFglgx5La-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="60" width="730" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="223" y="110" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-3" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="221" y="769" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="150" y="190" width="226" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="RESTART 8v 이상을 &lt;br&gt;19ms 인가 했을 때 &lt;br&gt;Restart Wake-up 미인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="380" width="242" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.414;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-43" target="aunHTb1YWMdkFglgx5La-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="340" as="sourcePoint" />
-            <mxPoint x="469" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-2" target="aunHTb1YWMdkFglgx5La-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-11" y="210" as="sourcePoint" />
-            <mxPoint x="39" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aunHTb1YWMdkFglgx5La-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="261" y="710" as="sourcePoint" />
-            <mxPoint x="47" y="660" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="40" y="60" width="730" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-12" value="Restart Wake-up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="50" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1244" width="730" height="546" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="246" width="580" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-14" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="203" y="1284" width="80" height="50" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-64" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Restart Wake-up&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80.88" y="235" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-15" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1694" width="80" height="50" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="731" width="580" height="344" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-16" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1364" width="226" height="60" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-66" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Restart Off&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80.88" y="727" width="118.25" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-17" value="Restart Off" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1524" width="210" height="80" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="291" y="95" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="aunHTb1YWMdkFglgx5La-17">
+        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="218" y="175" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="RESTART 8v 이상을 &lt;br&gt;19ms 인가 했을 때 &lt;br&gt;Restart Wake-up 미인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208" y="365" width="242" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.414;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-43" target="aunHTb1YWMdkFglgx5La-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="1484" as="sourcePoint" />
-            <mxPoint x="441" y="1444" as="targetPoint" />
+            <mxPoint x="328" y="325" as="sourcePoint" />
+            <mxPoint x="537" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-14" target="aunHTb1YWMdkFglgx5La-16">
+        <mxCell id="aunHTb1YWMdkFglgx5La-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-2" target="aunHTb1YWMdkFglgx5La-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-31" y="1384" as="sourcePoint" />
-            <mxPoint x="19" y="1334" as="targetPoint" />
+            <mxPoint x="57" y="195" as="sourcePoint" />
+            <mxPoint x="107" y="145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aunHTb1YWMdkFglgx5La-15">
+        <mxCell id="aunHTb1YWMdkFglgx5La-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="1674" as="sourcePoint" />
-            <mxPoint x="21" y="1624" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-21" value="RESTART = 0v" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="461" y="1524" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-17" target="aunHTb1YWMdkFglgx5La-21">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="471" y="1494" as="sourcePoint" />
-            <mxPoint x="521" y="1444" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="481" y="1464" as="sourcePoint" />
-            <mxPoint x="241" y="1504" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-24" value="Restart&amp;nbsp;Off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="1234" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-25" value="sleep" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="192" y="1644" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-17" target="aunHTb1YWMdkFglgx5La-25">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="32" y="1624" as="sourcePoint" />
-            <mxPoint x="82" y="1574" as="targetPoint" />
+            <mxPoint x="329" y="695" as="sourcePoint" />
+            <mxPoint x="329" y="754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-27" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="248" y="701" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-28" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="225" y="1604" width="60" height="30" as="geometry" />
+          <mxGeometry x="316" y="686" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-29" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="338" y="390" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-30" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="312" y="1534" width="60" height="30" as="geometry" />
+          <mxGeometry x="406" y="375" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-33" value="RESTART 8v 이상을 &lt;br&gt;90ms 인가 했을 때 &lt;br&gt;Restart Wake-up 인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="610" width="242" height="100" as="geometry" />
+          <mxGeometry x="208" y="595" width="242" height="100" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-34" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="338" y="620" width="60" height="30" as="geometry" />
+          <mxGeometry x="406" y="605" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.49;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-46" target="aunHTb1YWMdkFglgx5La-33">
+        <mxCell id="aunHTb1YWMdkFglgx5La-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.451;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-49" target="aunHTb1YWMdkFglgx5La-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="261" y="499" as="sourcePoint" />
-            <mxPoint x="-12" y="359" as="targetPoint" />
+            <mxPoint x="328.29999999999995" y="553.6200000000001" as="sourcePoint" />
+            <mxPoint x="56" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-36" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="478" y="731" width="60" height="32" as="geometry" />
+          <mxGeometry x="547" y="635" width="60" height="32" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-37" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="470" width="60" height="30" as="geometry" />
+          <mxGeometry x="328" y="455" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="aunHTb1YWMdkFglgx5La-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="498" y="410" as="sourcePoint" />
-            <mxPoint x="548" y="360" as="targetPoint" />
+            <mxPoint x="566" y="395" as="sourcePoint" />
+            <mxPoint x="616" y="345" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="508" y="430" />
+              <mxPoint x="576" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="468" y="501" as="sourcePoint" />
-            <mxPoint x="508" y="731" as="targetPoint" />
+            <mxPoint x="536" y="486" as="sourcePoint" />
+            <mxPoint x="544" y="646" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="508" y="661" />
+              <mxPoint x="528" y="646" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-21" target="aunHTb1YWMdkFglgx5La-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="596" y="1524" as="sourcePoint" />
-            <mxPoint x="241" y="1504" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="596" y="1474" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-40" value="CAN signal 확인 (restart wake-up 인식)&lt;br&gt;(P2_Tx_RESTART)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="128" y="1444" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-16" target="aunHTb1YWMdkFglgx5La-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="1434" as="sourcePoint" />
-            <mxPoint x="510" y="1384" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-43" value="CAN signal 확인 (restart wake-up 인식)&lt;br&gt;(P2_Tx_RESTART)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="150" y="280" width="270" height="60" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-43" value="CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&lt;br&gt;*restart wake-up&amp;nbsp;Input&amp;nbsp;&lt;br&gt;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="218" y="265" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.416;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-4" target="aunHTb1YWMdkFglgx5La-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="260" as="sourcePoint" />
-            <mxPoint x="500" y="210" as="targetPoint" />
+            <mxPoint x="518" y="245" as="sourcePoint" />
+            <mxPoint x="568" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-46" value="CAN signal 확인 (restart wake-up 인식)&lt;br&gt;(P2_Tx_RESTART)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="128" y="510" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.49;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="aunHTb1YWMdkFglgx5La-46">
+        <mxCell id="aunHTb1YWMdkFglgx5La-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="aunHTb1YWMdkFglgx5La-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="500" as="sourcePoint" />
-            <mxPoint x="470" y="450" as="targetPoint" />
+            <mxPoint x="488" y="485" as="sourcePoint" />
+            <mxPoint x="328.29999999999995" y="496.98" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-49" value="CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&lt;br&gt;*restart wake-up&amp;nbsp;Input&amp;nbsp;&lt;br&gt;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="208" y="495" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-51" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1009" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-52" value="Restart Off" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="839" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="aunHTb1YWMdkFglgx5La-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="799" as="sourcePoint" />
+            <mxPoint x="529" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aunHTb1YWMdkFglgx5La-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="989" as="sourcePoint" />
+            <mxPoint x="109" y="939" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-55" value="RESTART = 0v" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="549" y="839" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-52" target="aunHTb1YWMdkFglgx5La-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="559" y="809" as="sourcePoint" />
+            <mxPoint x="609" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-57" value="sleep" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="959" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-52" target="aunHTb1YWMdkFglgx5La-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="939" as="sourcePoint" />
+            <mxPoint x="170" y="889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-59" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="313" y="919" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-60" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="849" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684" y="839" as="sourcePoint" />
+            <mxPoint x="486" y="789" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="624" y="789" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aunHTb1YWMdkFglgx5La-62" value="CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&lt;br&gt;*restart wake-up&amp;nbsp;Input&amp;nbsp;&lt;br&gt;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="208" y="755" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
