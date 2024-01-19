@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T08:00:34.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="1mzuAhQP-8XNlkapBfgH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T08:03:59.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="goO3Qs3tbn9z6LrJ-3I3" version="22.1.21" type="github">
   <diagram name="페이지-1" id="a3gXjWDRqyw0euTx6lfB">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="-655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-1" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="1243" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-2" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="215.75" y="1320" width="238.25" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nAw4QJKDv4JVQ4dPHCgU-1" target="nAw4QJKDv4JVQ4dPHCgU-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60.75" y="1343" as="sourcePoint" />
+            <mxPoint x="110.75" y="1293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
