@@ -1,9 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T02:08:43.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="V_tWBUV1DQmml8qXhc40" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T04:32:51.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="64zGDB41gfUT2Sqsqx9L" version="22.1.21" type="github">
   <diagram name="페이지-1" id="EbH8Y-EYe8wvB5tE8kf4">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="-419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1206" width="730" height="704" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="1260" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-3" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="1804" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-4" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;고전압 베터리 셀 전압 = 4.0V&lt;br&gt;12V_BATT 베터리 셀 전압&amp;nbsp;= 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="221.75" y="1340" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.456;exitY=1.035;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" target="4qK7n27PlKcG9oN8jX_3-20" source="4qK7n27PlKcG9oN8jX_3-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326.75" y="1460" as="sourcePoint" />
+            <mxPoint x="338.1100000000001" y="1504.988" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-2" target="4qK7n27PlKcG9oN8jX_3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60.75" y="1360" as="sourcePoint" />
+            <mxPoint x="110.75" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.499;exitY=0.968;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" target="4qK7n27PlKcG9oN8jX_3-3" source="4qK7n27PlKcG9oN8jX_3-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326.75" y="1844" as="sourcePoint" />
+            <mxPoint x="112.75" y="1794" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-11" value="파워래치 / RTC 기능 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1196" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.453;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-4" target="4qK7n27PlKcG9oN8jX_3-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="551.75" y="1410" as="sourcePoint" />
+            <mxPoint x="335.30999999999995" y="1419.6999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-18" value="파워래치 (2초)&lt;br&gt;2초 동안 BMS 소모전류(평균값) 수치 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="1416" width="270" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-20" value="0A &amp;lt;= BMS 소모전류 &amp;lt;= 0.3A" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1494" width="269.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=1.026;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-23" target="4qK7n27PlKcG9oN8jX_3-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326.75" y="1634" as="sourcePoint" />
+            <mxPoint x="338.1100000000001" y="1678.988" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.453;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4qK7n27PlKcG9oN8jX_3-23" source="4qK7n27PlKcG9oN8jX_3-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="334.75" y="1574" as="sourcePoint" />
+            <mxPoint x="335.30999999999995" y="1593.6999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-23" value="RTC on 시간 (1초) + SLEEP 시간 (1초)&lt;br&gt;2초 동안 BMS 소모전류(평균값) 수치 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="1590" width="270" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-24" value="0A &amp;lt;= BMS 소모전류 &amp;lt;= 0.3A" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1668" width="269.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-25" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331.75" y="1554" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-26" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="581.75" y="1514" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-20" target="4qK7n27PlKcG9oN8jX_3-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="541.75" y="1524" as="sourcePoint" />
+            <mxPoint x="591.75" y="1474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-28" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445.75" y="1504" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-31" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="581.75" y="1688" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4qK7n27PlKcG9oN8jX_3-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.75" y="1703" as="sourcePoint" />
+            <mxPoint x="591.75" y="1648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-33" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445.75" y="1678" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-34" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331.75" y="1738" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2420" width="730" height="664" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-36" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="2474" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-37" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="2890" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-38" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;고전압 베터리 셀 전압 = 4.0V&lt;br&gt;12V_BATT 베터리 셀 전압&amp;nbsp;= 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="221.75" y="2554" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-58" target="4qK7n27PlKcG9oN8jX_3-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326.75" y="2674" as="sourcePoint" />
+            <mxPoint x="338.1100000000001" y="2718.9880000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-36" target="4qK7n27PlKcG9oN8jX_3-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60.75" y="2574" as="sourcePoint" />
+            <mxPoint x="110.75" y="2524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-42" value="BMS 암전류 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2410" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.453;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-38" target="4qK7n27PlKcG9oN8jX_3-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="551.75" y="2624" as="sourcePoint" />
+            <mxPoint x="335.30999999999995" y="2633.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-44" value="IG3 ON -&amp;gt; RTC OFF -&amp;gt; IG3 OFF" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="2630" width="270" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-45" value="BMS 암전류 &amp;lt;= 0.5mA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2790" width="269.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.453;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="334.75" y="2870" as="sourcePoint" />
+            <mxPoint x="334.05999999999995" y="2886.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-50" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331.75" y="2850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-51" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="581.75" y="2810" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-45" target="4qK7n27PlKcG9oN8jX_3-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="541.75" y="2820" as="sourcePoint" />
+            <mxPoint x="591.75" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-53" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445.75" y="2800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-58" value="3초가 지났는가?&lt;br&gt;(파워래치가 2초이기 때문)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2690" width="269.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=1.005;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-44" target="4qK7n27PlKcG9oN8jX_3-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="2760" as="sourcePoint" />
+            <mxPoint x="345" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4qK7n27PlKcG9oN8jX_3-58" target="4qK7n27PlKcG9oN8jX_3-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="2770" as="sourcePoint" />
+            <mxPoint x="355" y="2810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="2720" />
+              <mxPoint x="530" y="2650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-61" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="2740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-62" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="441" y="2690" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
