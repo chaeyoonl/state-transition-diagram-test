@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T07:12:59.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qbC2fhwsnCudL1Q7gnI1" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T07:46:35.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RsioFWScsCNbZDXeDw-4" version="22.1.21" type="github">
   <diagram name="페이지-1" id="fEnY4iOkhv4XJhf2eD4B">
-    <mxGraphModel dx="1793" dy="-44" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="-222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4ckRqdpDPiqs74uObfjG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1206" width="730" height="784" as="geometry" />
+          <mxGeometry x="40" y="1206" width="740" height="784" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-11" value="Jump OV Wake-up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1196" width="140" height="30" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="4ckRqdpDPiqs74uObfjG-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="264" y="1260" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-4" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="4ckRqdpDPiqs74uObfjG-4" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="191" y="1340" width="226" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-5" value="Jump OV Wake-up" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
