@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T07:03:02.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="omQnTiNpMe3FqVfZnlcf" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T07:47:56.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SzFeWtZLWyD9LrxPNHUm" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
     <mxGraphModel dx="1793" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="291" y="95" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="218" y="175" width="226" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-5" value="RESTART 8v 이상을 &lt;br&gt;19ms 인가 했을 때 &lt;br&gt;Restart Wake-up 미인식" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
