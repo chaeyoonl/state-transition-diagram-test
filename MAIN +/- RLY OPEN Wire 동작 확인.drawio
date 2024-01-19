@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2024-01-19T04:34:46.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="proYsFBBC8b8JCusXU4Y" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-19T06:25:08.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aB_z5-sm64XVC_dbmxuj" version="22.1.21" type="github">
   <diagram name="페이지-1" id="_W1y1FGJqFL61t6Za5zC">
-    <mxGraphModel>
+    <mxGraphModel dx="2049" dy="117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1206" width="730" height="1124" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.75" y="1233" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-2" target="sF5B2mHv0RzWMkK-KNg3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60.75" y="1333" as="sourcePoint" />
+            <mxPoint x="110.75" y="1283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-8" value="&lt;div&gt;MAIN +/- RLY&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;OPEN Wire 동작 확인&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1196" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-3" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300.15" y="2260" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-4" value="전압 인가&lt;br&gt;B+BATT, LATCH SEN, IG3 = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="215.75" y="1296" width="238.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-57" target="sF5B2mHv0RzWMkK-KNg3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338.7401199999998" y="2238.2799999999997" as="sourcePoint" />
+            <mxPoint x="117.13" y="2249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-9" value="RLY ON&lt;br&gt;*MAIN+&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br&gt;+MAIN-&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_M_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="1376" width="270" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-22" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334.38" y="2223" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.457;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-4" target="sF5B2mHv0RzWMkK-KNg3-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1446" as="sourcePoint" />
+            <mxPoint x="310" y="1396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.456;exitY=1.035;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" target="sF5B2mHv0RzWMkK-KNg3-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="335.05" y="1703" as="sourcePoint" />
+            <mxPoint x="338.16000000000014" y="1802.988" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-41" value="전압 = ON&lt;br&gt;전류 = ON&lt;br&gt;Open Flag = OFF" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221.03" y="1719" width="227.69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=1.026;exitDx=0;exitDy=0;entryX=0.453;entryY=-0.005;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-44" target="sF5B2mHv0RzWMkK-KNg3-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326.8" y="2011" as="sourcePoint" />
+            <mxPoint x="334.7950000000001" y="2093" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.453;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-41" target="sF5B2mHv0RzWMkK-KNg3-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="334.8" y="1872" as="sourcePoint" />
+            <mxPoint x="335.35999999999996" y="1891.6999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-44" value="RLY Wire-Open" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="1823" width="270" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-46" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334.38" y="1793" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-47" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1745" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-41" target="sF5B2mHv0RzWMkK-KNg3-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="541.8" y="1822" as="sourcePoint" />
+            <mxPoint x="591.8" y="1772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-49" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1733" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-50" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2179" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.989;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-57" target="sF5B2mHv0RzWMkK-KNg3-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573.4249200000002" y="2190.684" as="sourcePoint" />
+            <mxPoint x="701.59" y="2139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-52" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="421.75" y="2153" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-53" value="전압, 전류, Open Flag 확인&lt;br&gt;&lt;br&gt;+MAIN+ 전압&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br&gt;+MAIN- 전압&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;)&lt;br&gt;+MAIN+ 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+MAIN- 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;)&lt;br&gt;+MAIN+ Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+MAIN- Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="1483" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.465;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.463;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-9" target="sF5B2mHv0RzWMkK-KNg3-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1463" as="sourcePoint" />
+            <mxPoint x="560" y="1413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-56" value="전압, 전류, Open Flag 확인&lt;br&gt;&lt;br&gt;+MAIN+ 전압&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br&gt;+MAIN- 전압&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;)&lt;br&gt;+MAIN+ 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+MAIN- 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;)&lt;br&gt;+MAIN+ Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+MAIN- Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="211.75" y="1893" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-57" value="전압 = ON&lt;br&gt;전류 = OPEN&lt;br&gt;Open Flag = ON" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226.31" y="2153" width="227.69" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.477;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-56" target="sF5B2mHv0RzWMkK-KNg3-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="2143" as="sourcePoint" />
+            <mxPoint x="610" y="2093" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
