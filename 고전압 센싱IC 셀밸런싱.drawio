@@ -1,17 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T01:53:34.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FB135yTNbni5nDC9sb6U" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T01:54:52.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LQIQaQNjTYSR2PH9c_tD" version="22.1.21" type="github">
   <diagram name="페이지-1" id="i4kZyCOu4kcTUlXigqUq">
-    <mxGraphModel dx="2353" dy="287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1938" dy="30" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JR--cD0cvc0XQbJhbA4U-1" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="90" y="1247" width="640" height="913" as="geometry" />
         </mxCell>
-        <mxCell id="JR--cD0cvc0XQbJhbA4U-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="334.75" y="1270" width="80" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="JR--cD0cvc0XQbJhbA4U-3" value="고전압 센싱IC 셀밸런싱" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="100" y="1230" width="210" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-25" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1454" width="600" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-26" value="홀수 셀 밸런싱" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1437" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="334.75" y="1270" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JR--cD0cvc0XQbJhbA4U-4" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;- 고전압 배터리 셀 전압 : 4V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="247.75" y="1347" width="254.25" height="90" as="geometry" />
@@ -31,20 +37,26 @@
         <mxCell id="JR--cD0cvc0XQbJhbA4U-8" value="can signal 전송&lt;br&gt;*ODD 셀 밸런싱 (1로 설정)&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_CELL_BAL_CH&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="247.62" y="1470" width="254.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JR--cD0cvc0XQbJhbA4U-9" value="DUTY = 30%&lt;br&gt;10mA &amp;lt;= 전류" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="267.74" y="1660" width="214" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="JR--cD0cvc0XQbJhbA4U-10" value="DUTY와 전류 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="247.61" y="1560" width="254.25" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="JR--cD0cvc0XQbJhbA4U-11" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1685" width="68.26" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JR--cD0cvc0XQbJhbA4U-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JR--cD0cvc0XQbJhbA4U-8" target="JR--cD0cvc0XQbJhbA4U-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="1570" as="sourcePoint" />
             <mxPoint x="600" y="1520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-27" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1763.5" width="600" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-28" value="홀수 셀 밸런싱" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1746.5" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-9" value="DUTY = 30%&lt;br&gt;10mA &amp;lt;= 전류" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267.74" y="1660" width="214" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-11" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1685" width="68.26" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JR--cD0cvc0XQbJhbA4U-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JR--cD0cvc0XQbJhbA4U-10" target="JR--cD0cvc0XQbJhbA4U-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
