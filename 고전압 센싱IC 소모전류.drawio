@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T07:27:13.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cjynmDIFa512-saTd-Ij" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T07:31:31.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EdG1qNj1cjWXMF9De88K" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SMcoKKoXxrq3oXYOwZ4Q">
     <mxGraphModel dx="1136" dy="-466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="eBpO1_wVmvebje0pum54-7" value="각&amp;nbsp;BMIC GND 핀에서 전류 측정&lt;br&gt;-&amp;nbsp;BMIC1 : M1C0 (BMS1-C_1)&lt;br&gt;&lt;div&gt;- BMIC2 : M3C0 (BMS1-C_10)&lt;/div&gt;&lt;div&gt;- BMIC3 : M5C0 (BMS1-D_7)&lt;/div&gt;&lt;div&gt;- BMIC4 : M7C0 (BMS2-E_6)&lt;/div&gt;&lt;div&gt;- BMIC5 : M9C0 (BMS2-F_15)&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="255.26" y="1440" width="304.25" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="eBpO1_wVmvebje0pum54-8" value="전류 &amp;lt;= 10mA" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="303.69" y="1574" width="207.37" height="50" as="geometry" />
+        <mxCell id="eBpO1_wVmvebje0pum54-8" value="셀 소모전류가 정상인가?&lt;br&gt;(전류 &amp;lt;= 10mA)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="261.86" y="1575" width="291.06" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eBpO1_wVmvebje0pum54-7" target="eBpO1_wVmvebje0pum54-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -63,7 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-12" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="492.63" y="1575" width="60" height="30" as="geometry" />
+          <mxGeometry x="530" y="1573" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-13" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="367.37" y="2010" width="80" height="50" as="geometry" />
@@ -86,8 +86,8 @@
         <mxCell id="eBpO1_wVmvebje0pum54-17" value="각&amp;nbsp;BMIC GND 핀에서 전류 측정&lt;br&gt;&lt;div&gt;- 12V_BATT_BMIC1 : 12V_M1C0 (BMS3-G_5)&lt;/div&gt;&lt;div&gt;- 12V_BATT_BMIC2 : 12V_M2C0 (BMS3-G_11)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="255.26" y="1770" width="304.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="eBpO1_wVmvebje0pum54-18" value="전류 &amp;lt;= 10mA" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="303.69" y="1910" width="207.37" height="50" as="geometry" />
+        <mxCell id="eBpO1_wVmvebje0pum54-18" value="셀 소모전류가 정상인가?&lt;br&gt;(전류 &amp;lt;= 10mA)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="256.84000000000003" y="1910" width="301.06" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eBpO1_wVmvebje0pum54-17" target="eBpO1_wVmvebje0pum54-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-21" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="492.63" y="1910" width="60" height="30" as="geometry" />
+          <mxGeometry x="540" y="1910" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eBpO1_wVmvebje0pum54-8" target="eBpO1_wVmvebje0pum54-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
