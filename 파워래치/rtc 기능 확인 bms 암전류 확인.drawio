@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T05:54:30.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oxn6vnVrv5yhu7Hhmc7N" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T05:55:25.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LsQccedlb4qsE_BXN2q1" version="22.1.21" type="github">
   <diagram name="페이지-1" id="EbH8Y-EYe8wvB5tE8kf4">
     <mxGraphModel dx="1136" dy="-466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
             <mxPoint x="328.1100000000001" y="2051.9880000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4qK7n27PlKcG9oN8jX_3-73" value="1. IG3와 RTC 설정&lt;br&gt;- IG3 ON (wake up) -&amp;gt; RTC OFF -&amp;gt;&amp;nbsp;IG3 OFF (sleep)&lt;br&gt;&lt;br&gt;2. RTC OFF 설정, CAN signal 확인&lt;br&gt;*RTC&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_SBC_RTC_ON&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-73" value="1. IG3와 RTC 설정&lt;br&gt;- IG3 ON (wake up) -&amp;gt; RTC OFF -&amp;gt;&amp;nbsp;IG3 OFF (sleep)&lt;br&gt;&lt;br&gt;2. RTC OFF 설정, CAN signal 확인&lt;br&gt;*RTC&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_SBC_RTC_ON&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="194" y="1889" width="290" height="103" as="geometry" />
         </mxCell>
         <mxCell id="4qK7n27PlKcG9oN8jX_3-74" value="BMS 암전류 &amp;lt;= 0.5mA" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
