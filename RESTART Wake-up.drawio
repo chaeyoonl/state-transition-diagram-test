@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T05:23:37.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Jm1bor4iMx7UeUlAY9tP" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T07:35:49.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-_jJRRUmX2DJNGMltI-e" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
     <mxGraphModel dx="1373" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-4" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="218" y="175" width="226" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up 인식" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 인식 했는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="208" y="365" width="242" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.414;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-43" target="aunHTb1YWMdkFglgx5La-5" edge="1">
@@ -55,7 +55,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-29" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="316" y="440" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-33" value="Restart Wake-up 인식" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-33" value="Restart Wake-up을 인식 했는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="208" y="610" width="242" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-34" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -103,7 +103,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-51" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="283" y="1015" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-52" value="Restart Off" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-52" value="Restart Off 되었는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="218" y="839" width="210" height="71" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="aunHTb1YWMdkFglgx5La-52" edge="1">
