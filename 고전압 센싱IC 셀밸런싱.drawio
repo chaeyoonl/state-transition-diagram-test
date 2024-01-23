@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T07:50:21.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gEuA9uskra7dG5bVmTWQ" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T07:50:52.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZO1KjQNFwWPIYyzRm73b" version="22.1.21" type="github">
   <diagram name="페이지-1" id="i4kZyCOu4kcTUlXigqUq">
-    <mxGraphModel dx="2995" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1432" dy="-283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="JR--cD0cvc0XQbJhbA4U-8" value="can signal 전송&lt;br&gt;*ODD 셀 밸런싱 (1로 설정)&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_CELL_BAL_CH&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="247.76" y="1378" width="254.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JR--cD0cvc0XQbJhbA4U-10" value="DUTY와 전류 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="JR--cD0cvc0XQbJhbA4U-10" value="ODD 채널의 DUTY와 전류 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="247.75" y="1468" width="254.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JR--cD0cvc0XQbJhbA4U-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JR--cD0cvc0XQbJhbA4U-8" target="JR--cD0cvc0XQbJhbA4U-10" edge="1">
@@ -103,7 +103,7 @@
         <mxCell id="koRfIj1f8GouPtY5T9lE-24" value="DUTY 및 소모전류가 정상인가?&lt;br&gt;(DUTY = 30% &amp;amp;&amp;amp;&amp;nbsp;10mA &amp;lt;= 전류)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="233.13" y="2110" width="281.74" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="koRfIj1f8GouPtY5T9lE-25" value="DUTY와 전류 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="koRfIj1f8GouPtY5T9lE-25" value="EVEN 채널의 DUTY와 전류 확인" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="247.61" y="2040" width="254.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="koRfIj1f8GouPtY5T9lE-26" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
