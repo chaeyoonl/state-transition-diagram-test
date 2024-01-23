@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T06:22:46.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ocTWEdPsMZ-YI2BBY7r5" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T07:32:58.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XKxmnTaJWhmREEju6Nhj" version="22.1.21" type="github">
   <diagram name="페이지-1" id="_W1y1FGJqFL61t6Za5zC">
     <mxGraphModel dx="1373" dy="-320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-52" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="2162" width="60" height="30" as="geometry" />
+          <mxGeometry x="540" y="2162" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-53" value="MAIN +/- 전압,MAIN +/-&amp;nbsp;전류, Open Flag 확인&lt;br&gt;&lt;br&gt;*MAIN+ 전압&lt;br&gt;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br&gt;*MAIN- 전압&lt;br&gt;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;)&lt;br&gt;*MAIN+ 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;*MAIN- 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;)&lt;br&gt;*MAIN+ Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;*MAIN- Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="211.75" y="1509" width="270" height="220" as="geometry" />
@@ -97,8 +97,8 @@
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-56" value="RLY Wire-Open 상태 확인&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(전압 = ON &amp;amp;&amp;amp; 전류 == OFF &amp;amp;&amp;amp; OpenFlag == ON)&lt;br&gt;&lt;br&gt;*MAIN+ 전압&lt;br&gt;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br&gt;*MAIN- 전압&lt;br&gt;(&lt;font color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;)&lt;br&gt;*MAIN+ 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;*MAIN- 전류&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;)&lt;br&gt;*MAIN+ Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;*MAIN- Open Flag&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="187.28" y="1866" width="321.75" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-57" value="전압 = ON&lt;br&gt;전류 = OPEN&lt;br&gt;Open Flag = ON" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="226.31" y="2145" width="227.69" height="82" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-57" value="MAIN 릴레이가 정상동작을 하는가?&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(전압 == ON &amp;amp;&amp;amp;&amp;nbsp;전류 == OPEN &amp;amp;&amp;amp;&amp;nbsp;Open Flag == ON)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="119.07" y="2145" width="442.15" height="82" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.477;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-56" target="sF5B2mHv0RzWMkK-KNg3-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
