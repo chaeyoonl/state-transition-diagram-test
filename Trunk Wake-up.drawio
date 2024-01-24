@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T01:16:59.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BHP9vOc68aRBZsRzANZB" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T01:26:29.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5ixVwEUn24bSvNkbn3Tu" version="22.1.21" type="github">
   <diagram name="페이지-1" id="obiBgoJhXo5aXb0GnERu">
     <mxGraphModel dx="1432" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,13 +155,13 @@
             <mxPoint x="372.05999999999995" y="783.6999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZBejDf4waIo4YSwSh6Ry-117" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (trunk wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg: trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="ZBejDf4waIo4YSwSh6Ry-117" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (trunk wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="200" y="784" width="362" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jiloJv1bEFbKSHAcsWZZ-1" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360.5" y="740" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yl4W_snT8nnCGwo_MNte-1" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (trunk wake-up 인식)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg: trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Yl4W_snT8nnCGwo_MNte-1" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (trunk wake-up 인식)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="208.75" y="560" width="344.5" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Yl4W_snT8nnCGwo_MNte-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.471;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yl4W_snT8nnCGwo_MNte-1" target="ZBejDf4waIo4YSwSh6Ry-91">
