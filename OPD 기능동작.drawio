@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:24:55.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TLdRdYv7csWLZSpCmp7Y" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:25:11.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iT_8VoNVfz3MR0ogeKDi" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SJT4u1PBAeTd0MuI108T">
     <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-2" value="OPD가 발생 안하는가?&lt;br&gt;(13.3V &amp;lt;= 출력 전압 &amp;lt;= 13.8V &amp;amp;&amp;amp; OPD == 0)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1482" width="456.07" height="70" as="geometry" />
+          <mxGeometry x="225.47" y="1482" width="386.07" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-3" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="690" y="1502" width="70" height="30" as="geometry" />
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-9" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="403.51" y="1552" width="60" height="30" as="geometry" />
+          <mxGeometry x="403.51" y="1549" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-11" value="OPD가 발생 하는가?&lt;br&gt;(출력 전압 &amp;lt;= 1.5V &amp;amp;&amp;amp; OPD == 1)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="248" y="1758" width="341.07" height="70" as="geometry" />
