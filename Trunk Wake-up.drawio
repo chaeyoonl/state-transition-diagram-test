@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T05:38:31.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8073GtFADaljgv8d2UKC" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:29:56.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hLqtQC1v-VVfqnyEK19r" version="22.1.21" type="github">
   <diagram name="페이지-1" id="obiBgoJhXo5aXb0GnERu">
-    <mxGraphModel dx="1734" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-68" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;&lt;br&gt;2.&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;Trunk핀 2.2v 인가&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="217.75" y="270" width="305" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="ZBejDf4waIo4YSwSh6Ry-69" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ZBejDf4waIo4YSwSh6Ry-69" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(P2_Tx_TRUNK&amp;nbsp;== ON &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="136.5" y="509" width="473.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.486;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZBejDf4waIo4YSwSh6Ry-100" target="ZBejDf4waIo4YSwSh6Ry-69" edge="1">
@@ -146,7 +146,7 @@
         <mxCell id="Yl4W_snT8nnCGwo_MNte-5" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="1300" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Yl4W_snT8nnCGwo_MNte-6" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;&lt;br&gt;2.&amp;nbsp;Trunk핀 2.2v 이하&amp;nbsp;19ms 인가" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Yl4W_snT8nnCGwo_MNte-6" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="219" y="1370" width="305" height="99" as="geometry" />
         </mxCell>
         <mxCell id="Yl4W_snT8nnCGwo_MNte-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yl4W_snT8nnCGwo_MNte-5" target="Yl4W_snT8nnCGwo_MNte-6">
@@ -158,10 +158,10 @@
         <mxCell id="Yl4W_snT8nnCGwo_MNte-8" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="697" y="1625" width="60" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="Yl4W_snT8nnCGwo_MNte-17" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yl4W_snT8nnCGwo_MNte-17" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(P2_Tx_TRUNK&amp;nbsp;== ON &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup (&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="132.5" y="730" width="473.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Yl4W_snT8nnCGwo_MNte-18" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75 &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yl4W_snT8nnCGwo_MNte-18" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(P2_Tx_TRUNK&amp;nbsp;== ON &amp;amp;&amp;amp; 4.75 &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup (&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="125.75" y="1591" width="473.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Yl4W_snT8nnCGwo_MNte-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.487;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Yl4W_snT8nnCGwo_MNte-6" target="Yl4W_snT8nnCGwo_MNte-10">
