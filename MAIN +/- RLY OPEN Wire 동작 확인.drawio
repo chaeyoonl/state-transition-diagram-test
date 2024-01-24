@@ -1,101 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T02:22:01.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5mO5cO52Po1DkJHybfHz" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T06:52:25.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fEMVz4r090z3QuqLrfqk" version="22.1.21" type="github">
   <diagram name="페이지-1" id="_W1y1FGJqFL61t6Za5zC">
-    <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1220" dy="-414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1206" width="730" height="1074" as="geometry" />
+          <mxGeometry x="20" y="1206" width="790" height="1104" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="307.75" y="1243" width="80" height="50" as="geometry" />
+          <mxGeometry x="333.1" y="1243" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-2" target="sF5B2mHv0RzWMkK-KNg3-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60.75" y="1343" as="sourcePoint" />
-            <mxPoint x="110.75" y="1293" as="targetPoint" />
+            <mxPoint x="86.1" y="1343" as="sourcePoint" />
+            <mxPoint x="136.1" y="1293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-8" value="&lt;div&gt;MAIN +/- RLY&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;OPEN Wire 동작 확인&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1206" width="290" height="30" as="geometry" />
+          <mxGeometry x="20" y="1206" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-3" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="300.15" y="2214" width="80" height="50" as="geometry" />
+          <mxGeometry x="325.08" y="2238" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, IG3, B+LDC = 13.8V&lt;br&gt;&lt;br&gt;2. MAIN +/- RLY ON&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;MAIN+&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;MAIN-&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_M_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="154.65" y="1316" width="387" height="142" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, IG3, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1316" width="387" height="74" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-57" target="sF5B2mHv0RzWMkK-KNg3-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="338.7401199999998" y="2185.2799999999997" as="sourcePoint" />
-            <mxPoint x="117.13" y="2196" as="targetPoint" />
+            <mxPoint x="349.23011999999983" y="2048.2799999999997" as="sourcePoint" />
+            <mxPoint x="127.62" y="2059" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-22" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="2177" width="60" height="30" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-22" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="354.00000000000006" y="2198" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" target="sF5B2mHv0RzWMkK-KNg3-41" edge="1" source="sF5B2mHv0RzWMkK-KNg3-53">
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-41" value="정상적인 ON 동작을 하는가?&lt;br&gt;(13.3V &amp;lt;= 전압 &amp;lt;= 13.8V &amp;amp;&amp;amp;&amp;nbsp;전류 == ON &amp;amp;&amp;amp;&amp;nbsp;Open Flag == 0)&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;- CAN Tx Msg : MAIN+ 전압&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN- 전압&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN+ 전류&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;-&amp;nbsp; CAN Tx Msg :&amp;nbsp;MAIN- 전류&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN+ Open Flag&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN- Open Flag&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1540" width="610" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="yNBY_9K05dyYphkE5dUD-5" target="sF5B2mHv0RzWMkK-KNg3-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="335.05" y="1729" as="sourcePoint" />
-            <mxPoint x="338.16000000000014" y="1828.988" as="targetPoint" />
+            <mxPoint x="334.8" y="1876" as="sourcePoint" />
+            <mxPoint x="333.56864999999993" y="1845.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-41" value="MAIN 릴레이가 정상동작을 하는가?&lt;br&gt;(전압 == ON &amp;amp;&amp;amp;&amp;nbsp;전류 == ON &amp;amp;&amp;amp;&amp;nbsp;Open Flag == OFF)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="1756" width="388.72" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.455;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-41" target="yNBY_9K05dyYphkE5dUD-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="334.8" y="1898" as="sourcePoint" />
-            <mxPoint x="333.9980000000005" y="1863.624" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-46" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="322.15" y="1835" width="60" height="30" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-46" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="354" y="1802" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-47" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1782" width="66" height="30" as="geometry" />
+          <mxGeometry x="730" y="1656" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-41" target="sF5B2mHv0RzWMkK-KNg3-47" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="541.8" y="1859" as="sourcePoint" />
-            <mxPoint x="591.8" y="1809" as="targetPoint" />
+            <mxPoint x="541.8" y="1837" as="sourcePoint" />
+            <mxPoint x="591.8" y="1787" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-49" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="509.03" y="1771" width="60" height="30" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-49" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1643" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-50" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="630" y="2126" width="66" height="30" as="geometry" />
+          <mxGeometry x="730" y="2065.5" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sF5B2mHv0RzWMkK-KNg3-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.989;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-57" target="sF5B2mHv0RzWMkK-KNg3-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="573.4249200000002" y="2137.684" as="sourcePoint" />
-            <mxPoint x="701.59" y="2086" as="targetPoint" />
+            <mxPoint x="583.9149200000002" y="2000.6840000000002" as="sourcePoint" />
+            <mxPoint x="712.08" y="1949" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-52" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="540" y="2117" width="60" height="30" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-52" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="669" y="2051" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-53" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. MAIN +/- 전압 확인&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : MAIN+ 전압&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN- 전압&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;2. MAIN +/-&amp;nbsp;전류 확인 &lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN+ 전류&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN- 전류&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;3. Open Flag 확인&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN+ Open Flag&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN- Open Flag&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="121.07" y="1497" width="467.03" height="203" as="geometry" />
-        </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.471;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.463;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sF5B2mHv0RzWMkK-KNg3-4" target="sF5B2mHv0RzWMkK-KNg3-53" edge="1">
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.476;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yNBY_9K05dyYphkE5dUD-2" target="sF5B2mHv0RzWMkK-KNg3-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="337.29999999999995" y="1490.488" as="sourcePoint" />
-            <mxPoint x="560" y="1439" as="targetPoint" />
+            <mxPoint x="337.30489000000034" y="1528.782" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-57" value="MAIN 릴레이가 정상동작을 하는가?&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(전압 == ON &amp;amp;&amp;amp;&amp;nbsp;전류 == OPEN &amp;amp;&amp;amp;&amp;nbsp;Open Flag == ON)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="119.07" y="2100" width="442.15" height="82" as="geometry" />
+        <mxCell id="sF5B2mHv0RzWMkK-KNg3-57" value="정상적인 OPEN Wire 동작을 하는가?&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(13.3V &amp;lt;= 전압 &amp;lt;= 13.8V&amp;nbsp;&amp;amp;&amp;amp; &lt;font color=&quot;#ff0000&quot;&gt;전류 &amp;lt;= 0.05A &lt;/font&gt;&amp;amp;&amp;amp;&amp;nbsp;Open Flag == 1)&lt;br&gt;- CAN Tx Msg : MAIN+ 전압&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN- 전압&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN+ 전류&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp;-&amp;nbsp; CAN Tx Msg :&amp;nbsp;MAIN- 전류&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN+ Open Flag&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;- CAN Tx Msg :&amp;nbsp;MAIN- Open Flag&amp;nbsp;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="44" y="1963" width="642.15" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="sF5B2mHv0RzWMkK-KNg3-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.471;exitY=1.012;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yNBY_9K05dyYphkE5dUD-1" target="sF5B2mHv0RzWMkK-KNg3-57" edge="1">
+        <mxCell id="yNBY_9K05dyYphkE5dUD-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.487;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.481;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-4" target="yNBY_9K05dyYphkE5dUD-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="339.7895000000003" y="2130.264" as="sourcePoint" />
-            <mxPoint x="610" y="2103" as="targetPoint" />
+            <mxPoint x="362.35" y="1390" as="sourcePoint" />
+            <mxPoint x="362.35" y="1529" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNBY_9K05dyYphkE5dUD-1" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. MAIN +/- 전압 확인&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : MAIN+ 전압&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN- 전압&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;H_Tx_CAL_VOL_MAIN_RLY_M_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;2. MAIN +/-&amp;nbsp;전류 확인 &lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN+ 전류&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS0&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN- 전류&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_VOL_RLY_IS1&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;3. Open Flag 확인&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN+ Open Flag&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_P_WIRE_OPEN&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;MAIN- Open Flag&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Tx_TEMP_RLY_MAIN_M_WIRE_OPEN&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="121.07" y="1870" width="467.03" height="203" as="geometry" />
+        <mxCell id="yNBY_9K05dyYphkE5dUD-2" value="[MAIN +/- RLY ON&lt;span style=&quot;border-color: var(--border-color); text-align: center; background-color: initial;&quot;&gt;&amp;nbsp;동작 확인&lt;/span&gt;]&lt;br&gt;&lt;br&gt;1. MAIN +/- RLY ON&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;MAIN+&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;MAIN-&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_M_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="181.35" y="1406" width="387" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="yNBY_9K05dyYphkE5dUD-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sF5B2mHv0RzWMkK-KNg3-41" target="yNBY_9K05dyYphkE5dUD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="1802" as="sourcePoint" />
+            <mxPoint x="365" y="1988" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNBY_9K05dyYphkE5dUD-5" value="[MAIN +/- RLY&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); text-align: center; background-color: initial;&quot;&gt;OPEN Wire 동작 확인&lt;/span&gt;]&lt;br&gt;&lt;br&gt;1. MAIN +/- RLY ON&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;MAIN+&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_P_SW&lt;/font&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;MAIN-&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_M_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="171.57999999999998" y="1834" width="387" height="104" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
