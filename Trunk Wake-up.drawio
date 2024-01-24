@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T05:25:49.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fPKnlvJyW3KkxtMdjDj4" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T05:33:55.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zmFVoD0Zm3ilhDqgxtCO" version="22.1.21" type="github">
   <diagram name="페이지-1" id="obiBgoJhXo5aXb0GnERu">
-    <mxGraphModel dx="1176" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2745" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,36 +102,36 @@
           <mxGeometry x="40" y="1240" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-105" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="324" y="1807" width="80" height="50" as="geometry" />
+          <mxGeometry x="324" y="1793" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ZBejDf4waIo4YSwSh6Ry-105" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="364" y="1780" as="sourcePoint" />
-            <mxPoint x="150" y="1730" as="targetPoint" />
+            <mxPoint x="364" y="1766" as="sourcePoint" />
+            <mxPoint x="150" y="1716" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Yl4W_snT8nnCGwo_MNte-18" target="Yl4W_snT8nnCGwo_MNte-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="581" y="1645.5" as="sourcePoint" />
-            <mxPoint x="701" y="1650" as="targetPoint" />
+            <mxPoint x="581" y="1631.5" as="sourcePoint" />
+            <mxPoint x="701" y="1636" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-111" value="sleep" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="321" y="1750" width="80" height="30" as="geometry" />
+          <mxGeometry x="321" y="1736" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-112" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Yl4W_snT8nnCGwo_MNte-18" target="ZBejDf4waIo4YSwSh6Ry-111" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360.5" y="1741.0000000000002" as="sourcePoint" />
-            <mxPoint x="207.5" y="1715" as="targetPoint" />
+            <mxPoint x="360.5" y="1727.0000000000002" as="sourcePoint" />
+            <mxPoint x="207.5" y="1701" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-113" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="354" y="1705" width="60" height="30" as="geometry" />
+          <mxGeometry x="354" y="1691" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZBejDf4waIo4YSwSh6Ry-114" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="590" y="1630" width="60" height="30" as="geometry" />
+          <mxGeometry x="590" y="1616" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZBejDf4waIo4YSwSh6Ry-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Yl4W_snT8nnCGwo_MNte-10" edge="1">
+        <mxCell id="ZBejDf4waIo4YSwSh6Ry-116" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Yl4W_snT8nnCGwo_MNte-10" target="Yl4W_snT8nnCGwo_MNte-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="369.4999999999998" y="1460" as="sourcePoint" />
             <mxPoint x="363.0051750421226" y="1602.4802225134392" as="targetPoint" />
@@ -150,13 +150,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Yl4W_snT8nnCGwo_MNte-8" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="697" y="1639" width="60" height="32" as="geometry" />
+          <mxGeometry x="697" y="1625" width="60" height="32" as="geometry" />
         </mxCell>
         <mxCell id="Yl4W_snT8nnCGwo_MNte-17" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="133" y="660" width="473.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Yl4W_snT8nnCGwo_MNte-18" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75 &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125.75" y="1605" width="473.5" height="100" as="geometry" />
+        <mxCell id="Yl4W_snT8nnCGwo_MNte-18" value="Trunk Wake-up이 인식 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75 &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125.75" y="1591" width="473.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Yl4W_snT8nnCGwo_MNte-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.487;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Yl4W_snT8nnCGwo_MNte-6" target="Yl4W_snT8nnCGwo_MNte-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -164,8 +164,8 @@
             <mxPoint x="363.0051750421226" y="1602.4802225134392" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yl4W_snT8nnCGwo_MNte-10" value="[Trunk Wakeup 동작 확인1]&lt;br&gt;1. 13.8V 인가&lt;br&gt;&lt;br&gt;2.CAN signal 확인 (trunk wake-up 인식)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg:&amp;nbsp;trunk wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#007fff&quot;&gt;P2_Tx_TRUNK&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="184" y="1490" width="359" height="86" as="geometry" />
+        <mxCell id="Yl4W_snT8nnCGwo_MNte-10" value="[Trunk Wakeup 동작 확인1]&lt;br&gt;1. 13.8V 인가" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="184" y="1490" width="359" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
