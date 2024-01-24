@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:28:01.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ocd4D82FhuwWGIticrnv" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:28:28.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kyVRQLP8TvzeHXYslokx" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SJT4u1PBAeTd0MuI108T">
     <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-15" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="567.63" y="1769.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="574.63" y="1765.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-16" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="403.51" y="1818" width="60" height="30" as="geometry" />
@@ -122,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-22" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="580" y="1952" width="60" height="30" as="geometry" />
+          <mxGeometry x="580" y="1950" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-23" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="411.51" y="2004" width="60" height="30" as="geometry" />
