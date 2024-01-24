@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T01:02:54.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="p7DCIRYpwDk4t69i4wXI" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T01:03:33.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NWCktmRngZ4s5pfKX569" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
     <mxGraphModel dx="1647" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
             <mxPoint x="331.29999999999995" y="541.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-49" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : restart wake-up&amp;nbsp;Input&amp;nbsp; (&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-49" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : restart wakeup&amp;nbsp;Input&amp;nbsp; (&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="167" y="571" width="364" height="85" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-51" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -151,7 +151,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-62" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : restart wake-up&amp;nbsp;Input&amp;nbsp;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-62" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : restart wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="180" y="806" width="338" height="75" as="geometry" />
         </mxCell>
         <mxCell id="3M9bPRSgMb0RaMjHQsM1-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-33" target="aunHTb1YWMdkFglgx5La-36" edge="1">
