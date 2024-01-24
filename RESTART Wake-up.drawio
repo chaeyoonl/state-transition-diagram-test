@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T08:29:59.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="S6AShwE9nfzLAQM6W3oU" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:35:35.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="A3sFFdDfTTJnujDIM2y7" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
-    <mxGraphModel dx="1267" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="210.82" y="201" width="289" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup &lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 미인식 했는가?&lt;br&gt;(P2_Tx_RESTART&amp;nbsp;== OFF &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;0V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 0.1V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup &lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="131.69" y="427" width="444.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aunHTb1YWMdkFglgx5La-2" target="aunHTb1YWMdkFglgx5La-4" edge="1">
@@ -40,7 +40,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-27" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="349.32" y="901" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-29" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-29" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340.94" y="583" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-34" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-36" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="672.32" y="804" width="60" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-37" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-37" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="563.94" y="479" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="aunHTb1YWMdkFglgx5La-36" edge="1">
@@ -133,10 +133,10 @@
             <mxPoint x="201.7" y="1733" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-59" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-59" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="349.38" y="1741" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-60" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-60" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="566.38" y="1634" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uIygqu2bVKNI83eiNfOF-13" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
@@ -166,7 +166,7 @@
             <mxPoint x="353.5400000000002" y="1588.1999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uIygqu2bVKNI83eiNfOF-19" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uIygqu2bVKNI83eiNfOF-19" value="Restart Wake-up을 미인식 했는가?&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(P2_Tx_RESTART&amp;nbsp;== OFF &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;0V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 0.1V)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="132.07" y="1580" width="444.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uIygqu2bVKNI83eiNfOF-20" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
