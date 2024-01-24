@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:25:11.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iT_8VoNVfz3MR0ogeKDi" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:27:45.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jf5sOhVY-ojBgar_MT37" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SJT4u1PBAeTd0MuI108T">
     <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,34 +40,31 @@
             <mxPoint x="175.26" y="1255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-2" value="OPD가 발생 안하는가?&lt;br&gt;(13.3V &amp;lt;= 출력 전압 &amp;lt;= 13.8V &amp;amp;&amp;amp; OPD == 0)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="225.47" y="1482" width="386.07" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-3" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="690" y="1502" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-4" value="[자동 OPD 기능 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN을 통해 2nd MCU 셀 센싱 (셀 센싱 signal을 1로 변경)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : 셀 센싱&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_INPUT&lt;/font&gt;)&lt;br&gt;&lt;br&gt;2. CAN을 통해 MAIN +/- OFF (0.0V~0.5V)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : MAIN +&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;background-color: initial; border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_P_SW&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : MAIN -&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;background-color: initial; border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_MAIN_RLY_M_SW&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="238.75" y="1592" width="367.12" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-3" target="AvkWlbNvbWddTPrm8Bvt-2" edge="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-3" target="-v19bYt7nVEQIrfBHzqb-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="418.5150000000001" y="1408" as="sourcePoint" />
             <mxPoint x="614.51" y="1348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AvkWlbNvbWddTPrm8Bvt-2" target="AvkWlbNvbWddTPrm8Bvt-3" edge="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.989;exitY=0.496;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-10" target="AvkWlbNvbWddTPrm8Bvt-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="558.51" y="1472" as="sourcePoint" />
             <mxPoint x="558.51" y="1492" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AvkWlbNvbWddTPrm8Bvt-2" target="AvkWlbNvbWddTPrm8Bvt-4" edge="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-10" target="AvkWlbNvbWddTPrm8Bvt-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="438.51" y="1494" as="sourcePoint" />
             <mxPoint x="438.51" y="1514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-9" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-9" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="403.51" y="1549" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-11" value="OPD가 발생 하는가?&lt;br&gt;(출력 전압 &amp;lt;= 1.5V &amp;amp;&amp;amp; OPD == 1)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -136,23 +133,23 @@
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-27" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="690" y="2192" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-9" target="AvkWlbNvbWddTPrm8Bvt-27" edge="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.989;exitY=0.514;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-11" target="AvkWlbNvbWddTPrm8Bvt-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="528.1300000000006" y="2207" as="sourcePoint" />
             <mxPoint x="436.51" y="2182" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.54;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-9" target="AvkWlbNvbWddTPrm8Bvt-34" edge="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.54;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-v19bYt7nVEQIrfBHzqb-11" target="AvkWlbNvbWddTPrm8Bvt-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="426.31500000000005" y="2242" as="sourcePoint" />
             <mxPoint x="425.51" y="2270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-30" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-30" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="586.07" y="2182" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-31" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="411.51" y="2236" width="60" height="30" as="geometry" />
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-31" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="414" y="2234" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-34" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="382.32" y="2264" width="80" height="50" as="geometry" />
@@ -163,14 +160,14 @@
             <mxPoint x="422.31500000000005" y="1937" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.488;exitY=1.002;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="AvkWlbNvbWddTPrm8Bvt-24" target="-v19bYt7nVEQIrfBHzqb-9" edge="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.488;exitY=1.002;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="AvkWlbNvbWddTPrm8Bvt-24" target="-v19bYt7nVEQIrfBHzqb-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="426.31500000000005" y="2167" as="sourcePoint" />
             <mxPoint x="426.31500000000005" y="2188" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-v19bYt7nVEQIrfBHzqb-4" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="623.44" y="1488" width="60" height="30" as="geometry" />
+        <mxCell id="-v19bYt7nVEQIrfBHzqb-4" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1488" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-v19bYt7nVEQIrfBHzqb-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h-v0uyKteCco3msM5NHK-3" target="-v19bYt7nVEQIrfBHzqb-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -184,8 +181,11 @@
         <mxCell id="-v19bYt7nVEQIrfBHzqb-7" value="OPD가 발생 하는가?&lt;br&gt;(출력 전압 &amp;lt;= 1.5V &amp;amp;&amp;amp; OPD == 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252" y="1942" width="341.07" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-v19bYt7nVEQIrfBHzqb-9" value="OPD가 발생 안하는가?&lt;br&gt;(13.3V &amp;lt;= 출력 전압 &amp;lt;= 13.8V &amp;amp;&amp;amp; OPD == 0)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="248" y="2172" width="356.07" height="70" as="geometry" />
+        <mxCell id="-v19bYt7nVEQIrfBHzqb-10" value="OPD가 발생 하는가?&lt;br&gt;(출력 전압 &amp;lt;= 1.5V &amp;amp;&amp;amp; OPD == 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="1482" width="341.07" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-v19bYt7nVEQIrfBHzqb-11" value="OPD가 발생 하는가?&lt;br&gt;(출력 전압 &amp;lt;= 1.5V &amp;amp;&amp;amp; OPD == 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2172" width="341.07" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
