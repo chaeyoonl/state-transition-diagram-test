@@ -1,110 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T07:59:19.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="00r4mm790XJCDsyE8Axn" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T02:02:25.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="r1rLvgyaeuwXol91-SXM" version="22.1.21" type="github">
   <diagram name="페이지-1" id="a3gXjWDRqyw0euTx6lfB">
-    <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="-320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_10hZwi87Pg4yi5hbX7n-23" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1247" width="640" height="890" as="geometry" />
+          <mxGeometry x="30" y="1210" width="760" height="860" as="geometry" />
         </mxCell>
         <mxCell id="nAw4QJKDv4JVQ4dPHCgU-1" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="334.75" y="1270" width="80" height="50" as="geometry" />
+          <mxGeometry x="332.75" y="1263" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-2" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;- 가장 낮은 셀(M1C0)에서 가장 높은 셀(M10C8)에 320V 인가" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="247.75" y="1347" width="254.25" height="90" as="geometry" />
+        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-2" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;&amp;nbsp; &amp;nbsp; - 가장 낮은 셀(M1C0)에서 가장 높은 셀(M10C8)에 320V 인가&lt;br&gt;&lt;br&gt;2. 셀에 저항 연결&lt;br&gt;&amp;nbsp; &amp;nbsp; - 가장 높은 셀과 가장 낮은 셀에 각각 300K 저항을 연결한 후에 GND에 연결" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="158" y="1340" width="461.39" height="143" as="geometry" />
         </mxCell>
-        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nAw4QJKDv4JVQ4dPHCgU-1" target="nAw4QJKDv4JVQ4dPHCgU-2" edge="1">
+        <mxCell id="nAw4QJKDv4JVQ4dPHCgU-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.466;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nAw4QJKDv4JVQ4dPHCgU-1" target="nAw4QJKDv4JVQ4dPHCgU-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100.75" y="1370" as="sourcePoint" />
-            <mxPoint x="150.75" y="1320" as="targetPoint" />
+            <mxPoint x="98.75" y="1363" as="sourcePoint" />
+            <mxPoint x="373" y="1343" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_10hZwi87Pg4yi5hbX7n-1" value="환경 설정&lt;br&gt;- 가장 높은 셀과 가장 낮은 셀에 각각 300K 저항을 연결한 후에 GND에 연결" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="227.62" y="1471" width="294.25" height="70" as="geometry" />
+        <mxCell id="_10hZwi87Pg4yi5hbX7n-3" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN을 통해 ISOL High 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;ISOL (&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_ISOL_H_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="202" y="1533" width="342.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_10hZwi87Pg4yi5hbX7n-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nAw4QJKDv4JVQ4dPHCgU-2" target="_10hZwi87Pg4yi5hbX7n-1" edge="1">
+        <mxCell id="_10hZwi87Pg4yi5hbX7n-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.466;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="nAw4QJKDv4JVQ4dPHCgU-2" target="_10hZwi87Pg4yi5hbX7n-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="1337" as="sourcePoint" />
-            <mxPoint x="640" y="1287" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_10hZwi87Pg4yi5hbX7n-3" value="CAN&amp;nbsp;signal 전송&lt;br&gt;* ISOL High&lt;br&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_ISOL_H_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="203.75" y="1577" width="342.25" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_10hZwi87Pg4yi5hbX7n-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-1" target="_10hZwi87Pg4yi5hbX7n-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="1507" as="sourcePoint" />
-            <mxPoint x="710" y="1457" as="targetPoint" />
+            <mxPoint x="372.7450000000001" y="1534" as="sourcePoint" />
+            <mxPoint x="708" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-5" value="절연저항 수치가 정상인가?&lt;br&gt;(0.2MΩ &amp;lt;= ISOL H값 &amp;lt;= 0.4MΩ)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="237.38" y="1677" width="275" height="80" as="geometry" />
+          <mxGeometry x="235.63" y="1633" width="275" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_10hZwi87Pg4yi5hbX7n-6" value="CAN signal 전송&lt;br&gt;* ISOL Low&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_ISOL_L_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="203.75" y="1783" width="342.25" height="70" as="geometry" />
+        <mxCell id="_10hZwi87Pg4yi5hbX7n-6" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN을 통해 ISOL Low 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg :&amp;nbsp;ISOL&amp;nbsp;(&lt;font color=&quot;#0066cc&quot;&gt;P2_Rx_ISOL_L_SW&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="202" y="1739" width="342.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-7" value="절연저항 수치가 정상인가?&lt;br&gt;(0.2MΩ &amp;lt;= ISOL L값 &amp;lt;= 0.4MΩ)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="237.38" y="1883" width="275" height="80" as="geometry" />
+          <mxGeometry x="235.63" y="1839" width="275" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-3" target="_10hZwi87Pg4yi5hbX7n-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="1677" as="sourcePoint" />
-            <mxPoint x="580" y="1627" as="targetPoint" />
+            <mxPoint x="528.25" y="1633" as="sourcePoint" />
+            <mxPoint x="578.25" y="1583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-5" target="_10hZwi87Pg4yi5hbX7n-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="1777" as="sourcePoint" />
-            <mxPoint x="640" y="1727" as="targetPoint" />
+            <mxPoint x="588.25" y="1733" as="sourcePoint" />
+            <mxPoint x="638.25" y="1683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-6" target="_10hZwi87Pg4yi5hbX7n-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="1837" as="sourcePoint" />
-            <mxPoint x="670" y="1787" as="targetPoint" />
+            <mxPoint x="618.25" y="1793" as="sourcePoint" />
+            <mxPoint x="668.25" y="1743" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-12" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1963" width="60" height="30" as="geometry" />
+          <mxGeometry x="368.25" y="1919" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-13" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="334.74" y="2027" width="80" height="50" as="geometry" />
+          <mxGeometry x="332.99" y="1983" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-7" target="_10hZwi87Pg4yi5hbX7n-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="2017" as="sourcePoint" />
-            <mxPoint x="500" y="1967" as="targetPoint" />
+            <mxPoint x="448.25" y="1973" as="sourcePoint" />
+            <mxPoint x="498.25" y="1923" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-15" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="610" y="1697" width="60" height="40" as="geometry" />
+          <mxGeometry x="608.25" y="1653" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-16" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="610" y="1903" width="60" height="40" as="geometry" />
+          <mxGeometry x="608.25" y="1859" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-5" target="_10hZwi87Pg4yi5hbX7n-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="1687" as="sourcePoint" />
-            <mxPoint x="610" y="1637" as="targetPoint" />
+            <mxPoint x="558.25" y="1643" as="sourcePoint" />
+            <mxPoint x="608.25" y="1593" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_10hZwi87Pg4yi5hbX7n-7" target="_10hZwi87Pg4yi5hbX7n-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="1927" as="sourcePoint" />
-            <mxPoint x="590" y="1877" as="targetPoint" />
+            <mxPoint x="538.25" y="1883" as="sourcePoint" />
+            <mxPoint x="588.25" y="1833" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-19" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1751" width="60" height="30" as="geometry" />
+          <mxGeometry x="368.25" y="1707" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-20" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="486" y="1687" width="60" height="30" as="geometry" />
+          <mxGeometry x="484.25" y="1643" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-21" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="486" y="1897" width="60" height="30" as="geometry" />
+          <mxGeometry x="484.25" y="1853" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_10hZwi87Pg4yi5hbX7n-22" value="절연저항 센싱" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1247" width="150" height="27" as="geometry" />
+          <mxGeometry x="30" y="1210" width="150" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
