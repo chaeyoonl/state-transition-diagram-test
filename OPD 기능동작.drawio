@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T02:21:45.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xEX6zrz2ak61Gsquk0hJ" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T02:22:42.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Rakb97d-A1whLoMMvCct" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SJT4u1PBAeTd0MuI108T">
-    <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1373" dy="-320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="30" y="1180" width="760" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="h-v0uyKteCco3msM5NHK-6" value="자동 OPD 기능동작" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="48" y="1180" width="150" height="27" as="geometry" />
+          <mxGeometry x="30" y="1180" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-41" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50" y="1550" width="720" height="250" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="50" y="1260" width="720" height="280" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-40" value="OPD 미동작 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="48.00000000000005" y="1260" width="150" height="27" as="geometry" />
+          <mxGeometry x="50.00000000000005" y="1260" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-44" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="50" y="1810" width="720" height="180" as="geometry" />
