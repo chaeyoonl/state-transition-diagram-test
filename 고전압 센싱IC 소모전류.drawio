@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T07:31:31.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EdG1qNj1cjWXMF9De88K" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T01:56:19.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KDtcYXQi27kwh53QZwe3" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SMcoKKoXxrq3oXYOwZ4Q">
-    <mxGraphModel dx="1136" dy="-466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,8 +25,8 @@
         <mxCell id="eBpO1_wVmvebje0pum54-3" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="367.38" y="1260" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="eBpO1_wVmvebje0pum54-4" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;- 고전압 배터리 셀 전압 = 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="255.26" y="1340" width="304.25" height="70" as="geometry" />
+        <mxCell id="eBpO1_wVmvebje0pum54-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;&amp;nbsp; &amp;nbsp; - 고전압 배터리 셀 전압 = 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="255.26" y="1330" width="304.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eBpO1_wVmvebje0pum54-3" target="eBpO1_wVmvebje0pum54-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -40,8 +40,8 @@
             <mxPoint x="407.63" y="1480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eBpO1_wVmvebje0pum54-7" value="각&amp;nbsp;BMIC GND 핀에서 전류 측정&lt;br&gt;-&amp;nbsp;BMIC1 : M1C0 (BMS1-C_1)&lt;br&gt;&lt;div&gt;- BMIC2 : M3C0 (BMS1-C_10)&lt;/div&gt;&lt;div&gt;- BMIC3 : M5C0 (BMS1-D_7)&lt;/div&gt;&lt;div&gt;- BMIC4 : M7C0 (BMS2-E_6)&lt;/div&gt;&lt;div&gt;- BMIC5 : M9C0 (BMS2-F_15)&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="255.26" y="1440" width="304.25" height="110" as="geometry" />
+        <mxCell id="eBpO1_wVmvebje0pum54-7" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. 고전압 BMIC GND 핀에서 전류 측정&lt;br&gt;&amp;nbsp; &amp;nbsp; -&amp;nbsp;BMIC1 : M1C0 (BMS1-C_1)&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - BMIC2 : M3C0 (BMS1-C_10)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - BMIC3 : M5C0 (BMS1-D_7)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - BMIC4 : M7C0 (BMS2-E_6)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - BMIC5 : M9C0 (BMS2-F_15)&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="255.23999999999998" y="1430" width="304.25" height="130" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-8" value="셀 소모전류가 정상인가?&lt;br&gt;(전류 &amp;lt;= 10mA)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="261.86" y="1575" width="291.06" height="50" as="geometry" />
@@ -74,8 +74,8 @@
             <mxPoint x="332.63" y="1950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eBpO1_wVmvebje0pum54-15" value="전압 인가&lt;br&gt;- B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;- 12V_BATT 배터리 셀 전압 : 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="255.26" y="1670" width="304.25" height="70" as="geometry" />
+        <mxCell id="eBpO1_wVmvebje0pum54-15" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC, IG3 = 13.8V&lt;br&gt;&amp;nbsp; &amp;nbsp; - 12V_BATT 배터리 셀 전압 : 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="255.26" y="1660" width="304.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.498;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eBpO1_wVmvebje0pum54-15" target="eBpO1_wVmvebje0pum54-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -83,7 +83,7 @@
             <mxPoint x="407.63" y="1810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eBpO1_wVmvebje0pum54-17" value="각&amp;nbsp;BMIC GND 핀에서 전류 측정&lt;br&gt;&lt;div&gt;- 12V_BATT_BMIC1 : 12V_M1C0 (BMS3-G_5)&lt;/div&gt;&lt;div&gt;- 12V_BATT_BMIC2 : 12V_M2C0 (BMS3-G_11)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="eBpO1_wVmvebje0pum54-17" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. 12V BMIC GND 핀에서 전류 측정&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 12V_BATT_BMIC1 : 12V_M1C0 (BMS3-G_5)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 12V_BATT_BMIC2 : 12V_M2C0 (BMS3-G_11)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="255.26" y="1770" width="304.25" height="90" as="geometry" />
         </mxCell>
         <mxCell id="eBpO1_wVmvebje0pum54-18" value="셀 소모전류가 정상인가?&lt;br&gt;(전류 &amp;lt;= 10mA)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
