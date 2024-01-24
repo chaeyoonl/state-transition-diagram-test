@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T08:35:46.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SVZ-BxoSW77GQe014bLQ" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:45:53.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YiDs3lGrYn6w_g0sgdp5" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
     <mxGraphModel dx="1497" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="316.32" y="126" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;&amp;nbsp; &amp;nbsp; - TRUNK = OPEN" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="210.82" y="201" width="289" height="79" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 미인식 했는가?&lt;br&gt;(P2_Tx_RESTART&amp;nbsp;== OFF &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;0V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 0.1V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup &lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -142,7 +142,7 @@
         <mxCell id="uIygqu2bVKNI83eiNfOF-13" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="325.25" y="1300" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uIygqu2bVKNI83eiNfOF-14" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="uIygqu2bVKNI83eiNfOF-14" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;&amp;nbsp; &amp;nbsp; - TRUNK = OPEN" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="219.75" y="1375" width="289" height="79" as="geometry" />
         </mxCell>
         <mxCell id="uIygqu2bVKNI83eiNfOF-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uIygqu2bVKNI83eiNfOF-13" target="uIygqu2bVKNI83eiNfOF-14">
