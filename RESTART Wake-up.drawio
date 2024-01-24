@@ -1,173 +1,176 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T02:22:10.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KC1yA6YLY02ZX9rYb2TV" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T05:54:16.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Oj2vV917YB0-Ao0LU1HF" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
-    <mxGraphModel dx="1373" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1830" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uIygqu2bVKNI83eiNfOF-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="15" width="781" height="1965" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-5" value="Restart Wake-up" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="15" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="30" width="730" height="1120" as="geometry" />
+          <mxGeometry x="58" y="96" width="730" height="934" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-12" value="Restart Wake-up" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="83" y="226" width="650" height="544" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-64" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Restart Wake-up&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="83" y="226" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="83" y="776" width="650" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-66" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Restart Off&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="83" y="776" width="118.25" height="28" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-12" value="Restart Wake-up ON" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="58" y="96" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="294" y="46" width="80" height="50" as="geometry" />
+          <mxGeometry x="316.32" y="126" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;&lt;br&gt;2. RESTART 8v 이상을&amp;nbsp;19ms 인가&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="188.5" y="121" width="289" height="100" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="210.82" y="201" width="289" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 인식 했는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="211" y="367" width="242" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.463;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-43" target="aunHTb1YWMdkFglgx5La-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="331" y="335" as="sourcePoint" />
-            <mxPoint x="540" y="205" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="131.69" y="427" width="444.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aunHTb1YWMdkFglgx5La-2" target="aunHTb1YWMdkFglgx5La-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="146" as="sourcePoint" />
-            <mxPoint x="110" y="96" as="targetPoint" />
+            <mxPoint x="82.32" y="226" as="sourcePoint" />
+            <mxPoint x="132.32" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.449;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aunHTb1YWMdkFglgx5La-62" edge="1" source="aunHTb1YWMdkFglgx5La-33">
+        <mxCell id="aunHTb1YWMdkFglgx5La-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="uIygqu2bVKNI83eiNfOF-8" edge="1" source="uIygqu2bVKNI83eiNfOF-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="332" y="761" as="sourcePoint" />
-            <mxPoint x="332" y="820" as="targetPoint" />
+            <mxPoint x="350" y="809" as="sourcePoint" />
+            <mxPoint x="350" y="886" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-27" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="746" width="60" height="30" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-27" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="349.32" y="901" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-29" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="319" y="442" width="60" height="30" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-29" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340.94" y="583" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-33" value="Restart Wake-up을 인식 했는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="211" y="668" width="242" height="85" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-34" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="576.57" y="790" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-34" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="433" y="686" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.451;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-49" target="aunHTb1YWMdkFglgx5La-33" edge="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.469;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="uIygqu2bVKNI83eiNfOF-1" target="uIygqu2bVKNI83eiNfOF-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="331.29999999999995" y="598.6200000000001" as="sourcePoint" />
-            <mxPoint x="59" y="389" as="targetPoint" />
+            <mxPoint x="353.484" y="717.575" as="sourcePoint" />
+            <mxPoint x="353.32" y="738" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-36" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="550" y="694" width="60" height="32" as="geometry" />
+          <mxGeometry x="672.32" y="804" width="60" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-37" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="443" y="382" width="60" height="30" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-37" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="563.94" y="479" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="aunHTb1YWMdkFglgx5La-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="569" y="440" as="sourcePoint" />
-            <mxPoint x="619" y="390" as="targetPoint" />
+            <mxPoint x="590.32" y="510" as="sourcePoint" />
+            <mxPoint x="640.32" y="460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="410" />
+              <mxPoint x="702.32" y="507" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-43" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;/span&gt;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="165" y="263" width="362" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.463;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-4" target="aunHTb1YWMdkFglgx5La-43" edge="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.499;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uIygqu2bVKNI83eiNfOF-6" target="aunHTb1YWMdkFglgx5La-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="521" y="196" as="sourcePoint" />
-            <mxPoint x="571" y="146" as="targetPoint" />
+            <mxPoint x="543.32" y="276" as="sourcePoint" />
+            <mxPoint x="354.926" y="343.16999999999985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.462;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="uIygqu2bVKNI83eiNfOF-1" edge="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.46;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-5" target="uIygqu2bVKNI83eiNfOF-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="491" y="522" as="sourcePoint" />
-            <mxPoint x="331.29999999999995" y="533.98" as="targetPoint" />
+            <mxPoint x="512.32" y="615" as="sourcePoint" />
+            <mxPoint x="354.3099999999998" y="645.3875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-49" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : restart wakeup&amp;nbsp;Input&amp;nbsp; (&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="167" y="563" width="364" height="85" as="geometry" />
+        <mxCell id="3M9bPRSgMb0RaMjHQsM1-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.99;exitY=0.496;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="uIygqu2bVKNI83eiNfOF-3" target="aunHTb1YWMdkFglgx5La-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475.32" y="780.5" as="sourcePoint" />
+            <mxPoint x="554.32" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-1" value="[Restart Wakeup 동작 확인_2]&lt;br&gt;&lt;br&gt;1.&amp;nbsp;RESTART 8V 이상 (&lt;span style=&quot;text-align: center;&quot;&gt;90ms) 인가&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="229.57" y="624" width="270" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-3" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.07" y="740" width="444.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.499;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-4" target="uIygqu2bVKNI83eiNfOF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355.32" y="301" as="sourcePoint" />
+            <mxPoint x="353.32" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-6" value="[Restart Wakeup 동작 확인_1]&lt;br&gt;&lt;br&gt;1. RESTART 8V 이상 (19ms) 인가&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="209.82" y="324" width="289" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-8" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="313.94" y="940" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="1250" width="730" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-10" value="Restart Wake-up OFF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="1250" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-51" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="286" y="1081" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-52" value="Restart Off 되었는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="221" y="905" width="210" height="71" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="aunHTb1YWMdkFglgx5La-52" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="326" y="865" as="sourcePoint" />
-            <mxPoint x="532" y="825" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="314.7" y="1837" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aunHTb1YWMdkFglgx5La-51" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="326" y="1055" as="sourcePoint" />
-            <mxPoint x="112" y="1005" as="targetPoint" />
+            <mxPoint x="354.7" y="1811" as="sourcePoint" />
+            <mxPoint x="140.7" y="1761" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-55" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1.RESTART&amp;nbsp;전압을 0V로 설정" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="535" y="901" width="186" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-52" target="aunHTb1YWMdkFglgx5La-55" edge="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uIygqu2bVKNI83eiNfOF-19" target="uIygqu2bVKNI83eiNfOF-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="562" y="875" as="sourcePoint" />
-            <mxPoint x="612" y="825" as="targetPoint" />
+            <mxPoint x="457.32000000000016" y="1750.5" as="sourcePoint" />
+            <mxPoint x="584.5399999999998" y="1669" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-57" value="sleep" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="283" y="1025" width="80" height="30" as="geometry" />
+          <mxGeometry x="311.7" y="1781" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-52" target="aunHTb1YWMdkFglgx5La-57" edge="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uIygqu2bVKNI83eiNfOF-19" target="aunHTb1YWMdkFglgx5La-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="123" y="1005" as="sourcePoint" />
-            <mxPoint x="173" y="955" as="targetPoint" />
+            <mxPoint x="354.70000000000016" y="1754" as="sourcePoint" />
+            <mxPoint x="201.7" y="1733" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-59" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="314" y="973" width="60" height="30" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-59" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="349.38" y="1741" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-60" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="417" y="915" width="60" height="30" as="geometry" />
+        <mxCell id="aunHTb1YWMdkFglgx5La-60" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="566.38" y="1634" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.008;entryY=0.662;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-55" edge="1" target="aunHTb1YWMdkFglgx5La-62">
+        <mxCell id="uIygqu2bVKNI83eiNfOF-13" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325.25" y="1300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-14" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="219.75" y="1375" width="289" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uIygqu2bVKNI83eiNfOF-13" target="uIygqu2bVKNI83eiNfOF-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="687" y="905" as="sourcePoint" />
-            <mxPoint x="489" y="855" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="628" y="856" />
-            </Array>
+            <mxPoint x="91.25" y="1400" as="sourcePoint" />
+            <mxPoint x="141.25" y="1350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-62" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (restart wake-up 인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : restart wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="180" y="806" width="338" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="3M9bPRSgMb0RaMjHQsM1-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aunHTb1YWMdkFglgx5La-33" target="aunHTb1YWMdkFglgx5La-36" edge="1">
+        <mxCell id="uIygqu2bVKNI83eiNfOF-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.477;exitY=1.012;exitDx=0;exitDy=0;entryX=0.499;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" target="uIygqu2bVKNI83eiNfOF-17" source="uIygqu2bVKNI83eiNfOF-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="483" y="708" as="sourcePoint" />
-            <mxPoint x="533" y="658" as="targetPoint" />
+            <mxPoint x="358.56" y="1454" as="sourcePoint" />
+            <mxPoint x="356.88000000000005" y="1575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uIygqu2bVKNI83eiNfOF-1" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1.&amp;nbsp;RESTART 8v 이상을&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;90ms 인가&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="207" y="472" width="270" height="64.5" as="geometry" />
+        <mxCell id="uIygqu2bVKNI83eiNfOF-17" value="[Restart Wakeup 동작 확인_1]&lt;br&gt;&lt;br&gt;1. RESTART 0V 인가" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="213.38000000000005" y="1481" width="289" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="uIygqu2bVKNI83eiNfOF-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.467;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.456;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uIygqu2bVKNI83eiNfOF-1" target="aunHTb1YWMdkFglgx5La-49">
+        <mxCell id="uIygqu2bVKNI83eiNfOF-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.486;exitY=1.007;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="uIygqu2bVKNI83eiNfOF-17" target="uIygqu2bVKNI83eiNfOF-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="342" y="462" as="sourcePoint" />
-            <mxPoint x="333" y="558" as="targetPoint" />
+            <mxPoint x="367.31" y="1465" as="sourcePoint" />
+            <mxPoint x="353.5400000000002" y="1588.1999999999998" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-19" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.07" y="1580" width="444.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uIygqu2bVKNI83eiNfOF-20" value="NG" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="685.38" y="1643" width="60" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
