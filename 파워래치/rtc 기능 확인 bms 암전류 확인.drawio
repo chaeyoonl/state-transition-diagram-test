@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T06:17:03.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zB6QJBKOmgvc_nZgxrBU" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:30:01.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5_u1E-fRyktKW0efSjTI" version="22.1.21" type="github">
   <diagram name="페이지-1" id="EbH8Y-EYe8wvB5tE8kf4">
     <mxGraphModel dx="1373" dy="-320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
             <mxPoint x="370.73000000000013" y="2095.9880000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4qK7n27PlKcG9oN8jX_3-73" value="[BMS 암전류 동작 확인]&lt;br&gt;&lt;br&gt;1. IG3와 RTC 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - IG3 ON (wake up) -&amp;gt; RTC OFF -&amp;gt;&amp;nbsp;IG3 OFF (sleep)&lt;br&gt;&lt;br&gt;2. CAN을 통해 RTC OFF 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : RTC&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_SBC_RTC_ON&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="4qK7n27PlKcG9oN8jX_3-73" value="[BMS 암전류 동작 확인]&lt;br&gt;&lt;br&gt;1. IG3와 RTC 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - IG3 ON (wake up) -&amp;gt; RTC OFF -&amp;gt;&amp;nbsp;IG3 OFF (sleep)&lt;br&gt;&lt;br&gt;2. CAN을 통해 RTC OFF 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : RTC 설정 (&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_SBC_RTC_ON&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="224" y="1895" width="323.38" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4qK7n27PlKcG9oN8jX_3-74" value="암전류 수치가 정상인가?&lt;br&gt;(3초가 지났는가? &amp;amp;&amp;amp;&amp;nbsp;BMS 암전류 &amp;lt;= 0.5mA)&lt;br&gt;&amp;nbsp;- 파워래치가 2초이기 때문에 3초가 지나야 함" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -121,7 +121,7 @@
             <mxPoint x="381" y="1576" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BYYFadhGcqvwVZ3HllnQ-5" value="[파워래치 / RTC 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN을 통해 RTC ON 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : RTC&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_SBC_RTC_ON&lt;/font&gt;)&lt;br&gt;&lt;br&gt;2. Wake up (IG3)소스 제거" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="BYYFadhGcqvwVZ3HllnQ-5" value="[파워래치 / RTC 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN을 통해 RTC ON 설정&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Rx Msg : RTC 설정 (&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#0066cc&quot;&gt;P2_Rx_SBC_RTC_ON&lt;/font&gt;)&lt;br&gt;&lt;br&gt;2. Wake up (IG3)소스 제거(SLEEP 상태로 만듬)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="229.29999999999998" y="1435" width="304.37" height="120" as="geometry" />
         </mxCell>
       </root>
