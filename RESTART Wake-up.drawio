@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T05:54:16.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Oj2vV917YB0-Ao0LU1HF" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:29:59.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="S6AShwE9nfzLAQM6W3oU" version="22.1.21" type="github">
   <diagram name="페이지-1" id="1IKooUKZ0aYFM0yAQ47z">
-    <mxGraphModel dx="1830" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1267" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="aunHTb1YWMdkFglgx5La-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="210.82" y="201" width="289" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aunHTb1YWMdkFglgx5La-5" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup &lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="131.69" y="427" width="444.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="aunHTb1YWMdkFglgx5La-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aunHTb1YWMdkFglgx5La-2" target="aunHTb1YWMdkFglgx5La-4" edge="1">
@@ -88,7 +88,7 @@
         <mxCell id="uIygqu2bVKNI83eiNfOF-1" value="[Restart Wakeup 동작 확인_2]&lt;br&gt;&lt;br&gt;1.&amp;nbsp;RESTART 8V 이상 (&lt;span style=&quot;text-align: center;&quot;&gt;90ms) 인가&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="229.57" y="624" width="270" height="64.5" as="geometry" />
         </mxCell>
-        <mxCell id="uIygqu2bVKNI83eiNfOF-3" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup Input&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uIygqu2bVKNI83eiNfOF-3" value="Restart Wake-up을 인식 했는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp;&amp;nbsp;&amp;nbsp;4.75V &amp;lt;= PWR_C_SNR 출력 전압 &amp;lt;= 5.52V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg : Restart Wakeup &lt;span style=&quot;text-align: left;&quot;&gt;(&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_RESTART&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="132.07" y="740" width="444.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uIygqu2bVKNI83eiNfOF-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.499;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aunHTb1YWMdkFglgx5La-4" target="uIygqu2bVKNI83eiNfOF-6">
