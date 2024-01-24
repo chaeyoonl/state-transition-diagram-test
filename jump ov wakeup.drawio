@@ -1,26 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T02:22:16.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="h6Wnm_0BFLKzd8kGCgIb" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T05:23:59.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="r7aA4YGfVMeIf8rK58e6" version="22.1.21" type="github">
   <diagram name="페이지-1" id="fEnY4iOkhv4XJhf2eD4B">
-    <mxGraphModel dx="1373" dy="-320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4ckRqdpDPiqs74uObfjG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1206" width="760" height="814" as="geometry" />
+          <mxGeometry x="40" y="1206" width="760" height="534" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-11" value="Jumper OV Wake-up" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1206" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1380" width="710" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-50" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Jumper OV Wake-up&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1380" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1637" width="710" height="253" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-52" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Jumper OV Off&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1637" width="118.25" height="28" as="geometry" />
+        <mxCell id="4ckRqdpDPiqs74uObfjG-11" value="Jumper OV Wake-up ON" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1206" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="282" y="1230" width="80" height="50" as="geometry" />
@@ -28,14 +16,8 @@
         <mxCell id="4ckRqdpDPiqs74uObfjG-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="181.5" y="1300" width="281" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-5" value="Jumper OV Wake-up이 되었는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="1536" width="249" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="4ckRqdpDPiqs74uObfjG-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="314" y="1496" as="sourcePoint" />
-            <mxPoint x="520" y="1456" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4ckRqdpDPiqs74uObfjG-5" value="Wakeup이 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력전압 &amp;lt;= 5.25V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;Jumper OV Wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_JUMPER_OV&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="91.75" y="1420" width="452.5" height="183" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-2" target="4ckRqdpDPiqs74uObfjG-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,98 +25,104 @@
             <mxPoint x="98" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-9" value="[조건 변화]&lt;br&gt;&lt;br&gt;1. 전압을 순차적으로 증가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+LDC = 13.8v -&amp;gt; 14.0v -&amp;gt; 14.2v -&amp;gt; 14.4v" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="515" y="1529" width="255" height="73" as="geometry" />
+        <mxCell id="4ckRqdpDPiqs74uObfjG-9" value="[Jumper OV 동작 확인]&lt;br&gt;&lt;br&gt;1. 전압을 순차적으로 증가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+LDC = 13.8v -&amp;gt; 14.0v -&amp;gt; 14.2v -&amp;gt; 14.4v" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1464" width="180" height="73" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-5" target="4ckRqdpDPiqs74uObfjG-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="525" y="1506" as="sourcePoint" />
-            <mxPoint x="575" y="1456" as="targetPoint" />
+            <mxPoint x="526" y="1549" as="sourcePoint" />
+            <mxPoint x="576" y="1499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.442;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-5" edge="1" target="4ckRqdpDPiqs74uObfjG-48">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="111" y="1636" as="sourcePoint" />
-            <mxPoint x="313.6400000000001" y="1656.66" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4ckRqdpDPiqs74uObfjG-14" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="315.5" y="1610" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-14" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="304" y="1604" width="60" height="30" as="geometry" />
+        <mxCell id="4ckRqdpDPiqs74uObfjG-15" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="531" y="1480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-15" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="413" y="1551" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.474;exitY=-0.009;exitDx=0;exitDy=0;entryX=0.999;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-9" target="4ckRqdpDPiqs74uObfjG-18" edge="1">
+        <mxCell id="4ckRqdpDPiqs74uObfjG-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.474;exitY=-0.009;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="1536" as="sourcePoint" />
-            <mxPoint x="452" y="1486" as="targetPoint" />
+            <mxPoint x="320" y="1390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="636" y="1480" />
+              <mxPoint x="695" y="1390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.453;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-4" target="4ckRqdpDPiqs74uObfjG-18" edge="1">
+        <mxCell id="4ckRqdpDPiqs74uObfjG-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.489;exitY=0.996;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-4" target="4ckRqdpDPiqs74uObfjG-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="539" y="1410" as="sourcePoint" />
-            <mxPoint x="322.55999999999995" y="1419.6999999999998" as="targetPoint" />
+            <mxPoint x="322.5930000000001" y="1392.225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-18" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (Jumper OV Wake-Up&amp;nbsp;인식)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;Jumper OV Wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font color=&quot;#007fff&quot;&gt;P2_Tx_JUMPER_OV&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="150" y="1427" width="381" height="89" as="geometry" />
+        <mxCell id="GIYgSABrDIUkGp1uLft4-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ckRqdpDPiqs74uObfjG-5" target="GIYgSABrDIUkGp1uLft4-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="316" y="1659" as="sourcePoint" />
+            <mxPoint x="309.71000000000004" y="1685.6309999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIYgSABrDIUkGp1uLft4-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1780" width="760" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GIYgSABrDIUkGp1uLft4-5" value="Jumper OV Wake-up OFF" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1780" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ckRqdpDPiqs74uObfjG-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="GIYgSABrDIUkGp1uLft4-7" edge="1" target="GIYgSABrDIUkGp1uLft4-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323.5" y="1830.5" as="sourcePoint" />
+            <mxPoint x="323.98199999999997" y="1916.442" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-37" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="274" y="1954" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-38" value="Jumper OV Off가 되었는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="209" y="1784" width="210" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="4ckRqdpDPiqs74uObfjG-38" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="314" y="1744" as="sourcePoint" />
-            <mxPoint x="520" y="1704" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="283.5" y="2217" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4ckRqdpDPiqs74uObfjG-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="314" y="1934" as="sourcePoint" />
-            <mxPoint x="100" y="1884" as="targetPoint" />
+            <mxPoint x="323.5" y="2191" as="sourcePoint" />
+            <mxPoint x="109.5" y="2141" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-41" value="[조건 변화]&lt;br&gt;&lt;br&gt;1. 전압을 순차적으로 감소&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - B+LDC = 14.4v -&amp;gt; 14.2v -&amp;gt; 14.0v" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="515" y="1774" width="255" height="76" as="geometry" />
+        <mxCell id="4ckRqdpDPiqs74uObfjG-41" value="[Jumper OV 동작 확인]&lt;br&gt;&lt;br&gt;1. 전압을 순차적으로 감소&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - B+LDC = 14.4v -&amp;gt; 14.2v -&amp;gt; 14.0v" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="617" y="1985" width="166" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-38" target="4ckRqdpDPiqs74uObfjG-41" edge="1">
+        <mxCell id="4ckRqdpDPiqs74uObfjG-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GIYgSABrDIUkGp1uLft4-8" target="4ckRqdpDPiqs74uObfjG-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="525" y="1754" as="sourcePoint" />
-            <mxPoint x="575" y="1704" as="targetPoint" />
+            <mxPoint x="429" y="2065" as="sourcePoint" />
+            <mxPoint x="585" y="1945" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-43" value="sleep" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="271" y="1904" width="80" height="30" as="geometry" />
+          <mxGeometry x="280.5" y="2161" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-38" target="4ckRqdpDPiqs74uObfjG-43" edge="1">
+        <mxCell id="4ckRqdpDPiqs74uObfjG-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GIYgSABrDIUkGp1uLft4-8" target="4ckRqdpDPiqs74uObfjG-43" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="111" y="1884" as="sourcePoint" />
-            <mxPoint x="161" y="1834" as="targetPoint" />
+            <mxPoint x="324" y="2105" as="sourcePoint" />
+            <mxPoint x="171" y="2075" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-45" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="304" y="1856" width="60" height="30" as="geometry" />
+        <mxCell id="4ckRqdpDPiqs74uObfjG-45" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="541" y="2000" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-46" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="391" y="1794" width="60" height="30" as="geometry" />
+        <mxCell id="4ckRqdpDPiqs74uObfjG-46" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="315.5" y="2128" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=-0.003;exitDx=0;exitDy=0;entryX=1.004;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-41" target="4ckRqdpDPiqs74uObfjG-48" edge="1">
+        <mxCell id="4ckRqdpDPiqs74uObfjG-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4ckRqdpDPiqs74uObfjG-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="650" y="1784" as="sourcePoint" />
-            <mxPoint x="452" y="1734" as="targetPoint" />
+            <mxPoint x="660" y="2025" as="sourcePoint" />
+            <mxPoint x="330" y="1900" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="635" y="1732" />
+              <mxPoint x="695" y="1900" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ckRqdpDPiqs74uObfjG-48" value="[정상 동작 확인]&lt;br&gt;&lt;br&gt;1. CAN signal 확인 (Jumper OV Wake-Up&amp;nbsp;인식)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;Jumper OV Wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#007fff&quot;&gt;P2_Tx_JUMPER_OV&lt;/font&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="150" y="1680" width="371" height="86" as="geometry" />
+        <mxCell id="GIYgSABrDIUkGp1uLft4-6" value="종료" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="278" y="1661" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIYgSABrDIUkGp1uLft4-7" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="284" y="1840" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIYgSABrDIUkGp1uLft4-8" value="Wakeup이 되었는가?&lt;br&gt;(CAN signal 값 == 1 &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력전압 &amp;lt;= 5.25V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;Jumper OV Wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_JUMPER_OV&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.75" y="1940" width="452.5" height="188" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
