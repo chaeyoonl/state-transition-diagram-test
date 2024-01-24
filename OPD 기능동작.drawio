@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:28:59.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6xoDmkRhc3qyDp3gkgLr" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:30:28.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0MpLs2hkyUtfAYyN7cQR" version="22.1.21" type="github">
   <diagram name="페이지-1" id="SJT4u1PBAeTd0MuI108T">
     <mxGraphModel dx="1647" dy="-150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,16 +16,16 @@
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-42" value="OPD 동작 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="49.99999999999994" y="1588" width="150" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-39" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-39" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50" y="1248" width="720" height="322" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-40" value="OPD 미동작 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-40" value="OPD 미동작 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50.00000000000005" y="1248" width="150" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-44" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-44" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50" y="1848" width="720" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-45" value="Latch (OPD 유지) 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-45" value="Latch (OPD 유지) 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="49.99999999999994" y="1848" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="h-v0uyKteCco3msM5NHK-2" value="시작" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -97,10 +97,10 @@
             <mxPoint x="654.32" y="1678" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-46" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-46" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50" y="2037" width="720" height="223" as="geometry" />
         </mxCell>
-        <mxCell id="AvkWlbNvbWddTPrm8Bvt-47" value="Reset 후 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="AvkWlbNvbWddTPrm8Bvt-47" value="Reset 후 확인" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="50.00000000000005" y="2037" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="AvkWlbNvbWddTPrm8Bvt-17" value="[Latch 기능 동작 확인]&lt;br&gt;&lt;br&gt;1. 전압 인가 변경&lt;br&gt;&amp;nbsp; &amp;nbsp; - 고전압 배터리 셀 전압 : 4.0V" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
