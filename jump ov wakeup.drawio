@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T00:56:21.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZowBP_9JPNOCKPa9JO4C" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T00:57:43.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="emgn2wvjqFMDw9cD8OPq" version="23.0.0" type="github">
   <diagram name="페이지-1" id="fEnY4iOkhv4XJhf2eD4B">
     <mxGraphModel dx="1136" dy="-466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="282" y="1254" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-4" value="[검사 조건 설정]&lt;br&gt;&lt;br&gt;1. 전압 인가&lt;br&gt;&amp;nbsp; &amp;nbsp; - B+BATT, LATCH SEN, B+LDC = 13.8V&lt;br&gt;&amp;nbsp; &amp;nbsp; - TRUNK = OPEN" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="181.5" y="1326" width="281" height="74" as="geometry" />
+          <mxGeometry x="181.5" y="1321" width="281" height="84" as="geometry" />
         </mxCell>
         <mxCell id="4ckRqdpDPiqs74uObfjG-5" value="Wakeup이 되었는가?&lt;br&gt;(P2_Tx_JUMPER_OV&amp;nbsp;== ON &amp;amp;&amp;amp; 4.75V &amp;lt;= PWR_C_SNR 출력전압 &amp;lt;= 5.25V)&lt;br&gt;&amp;nbsp; &amp;nbsp; - CAN Tx Msg :&amp;nbsp;Jumper OV Wakeup&amp;nbsp;Input&amp;nbsp;(&lt;font style=&quot;border-color: var(--border-color); text-align: left;&quot; color=&quot;#007fff&quot;&gt;P2_Tx_JUMPER_OV&lt;/font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="91.75" y="1444" width="452.5" height="183" as="geometry" />
